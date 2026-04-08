@@ -79,3 +79,13 @@ Common regression categories:
 - For database migrations: verify existing queries still work, check data integrity
 - For config changes: verify all environments, check for missing values
 - For shared library changes: identify and test all consumers
+
+## Quality Checklist
+
+- [ ] Output is specific and actionable, not generic
+- [ ] All relevant inputs have been gathered before producing output
+- [ ] Recommendations are prioritized by impact
+- [ ] Stakeholders and audience are identified
+- [ ] Output format matches the audience's needs
+- [ ] Key assumptions are documented
+- [ ] Follow-up actions have clear owners

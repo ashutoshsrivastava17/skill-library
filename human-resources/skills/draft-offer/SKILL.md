@@ -6,6 +6,7 @@ description: >
   TRIGGER when: user asks to draft an offer, write an offer letter, create
   a job offer, prepare an employment offer, or generate offer terms.
 argument-hint: "<candidate_name> <role> [--start-date <date>] [--comp <total_comp>]"
+user-invocable: true
 ---
 
 # Draft Offer Letter

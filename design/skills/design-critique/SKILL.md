@@ -5,6 +5,7 @@ description: >
   TRIGGER when: user says "critique this design", "review my design", "feedback on this UI",
   "what do you think of this layout", or shares a screenshot/mockup for review.
 argument-hint: "[file path or description of design]"
+user-invocable: true
 ---
 
 # Design Critique
@@ -138,3 +139,21 @@ Use these when grounding feedback:
 | Gestalt Proximity | Elements close together are perceived as related |
 | Gestalt Similarity | Elements that look alike are perceived as related |
 | Miller's Law | Working memory holds ~7 items. Chunk information. |
+
+## Quality Checklist
+
+- [ ] Output is specific and actionable, not generic
+- [ ] All relevant inputs have been gathered before producing output
+- [ ] Recommendations are prioritized by impact
+- [ ] Stakeholders and audience are identified
+- [ ] Output format matches the audience's needs
+- [ ] Key assumptions are documented
+- [ ] Follow-up actions have clear owners
+
+## Edge Cases
+
+- If input data is incomplete, state assumptions explicitly and flag gaps
+- For time-sensitive situations, prioritize speed over comprehensiveness
+- If multiple stakeholders have conflicting needs, document the tradeoffs
+- For first-time use, start with a simplified version and iterate
+- Adapt the depth and detail to the audience's expertise level

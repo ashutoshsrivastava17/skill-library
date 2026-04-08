@@ -5,6 +5,7 @@ description: >
   TRIGGER when: user says "start my day", "what's on my plate", "catch me up",
   "morning briefing", "what should I work on", or begins a new session.
 argument-hint: "[focus-area]"
+user-invocable: true
 ---
 
 # Session Start
@@ -97,3 +98,13 @@ Otherwise, ask: **"What would you like to focus on?"** and offer the top 3 sugge
 - Bold labels for scanability.
 - Show dates in relative + absolute form: "tomorrow (2026-04-09)".
 - Keep the entire briefing under 40 lines unless the user asks for detail.
+
+## Quality Checklist
+
+- [ ] Output is specific and actionable, not generic
+- [ ] All relevant inputs have been gathered before producing output
+- [ ] Recommendations are prioritized by impact
+- [ ] Stakeholders and audience are identified
+- [ ] Output format matches the audience's needs
+- [ ] Key assumptions are documented
+- [ ] Follow-up actions have clear owners

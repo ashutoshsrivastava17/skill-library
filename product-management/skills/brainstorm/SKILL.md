@@ -7,6 +7,7 @@ description: >
   TRIGGER when: user asks to brainstorm, ideate, think creatively, generate ideas,
   or explore possibilities on any topic.
 argument-hint: "[topic or challenge to brainstorm]"
+user-invocable: true
 ---
 
 # General Brainstorming Session
@@ -199,3 +200,13 @@ For the top 3 ideas, flesh out:
 - **User attached to one idea**: acknowledge it, set it aside, and brainstorm alternatives before comparing
 - **Group brainstorming**: use round-robin or brainwriting (write silently, then share) to prevent groupthink
 - **Nothing feels good enough**: lower the bar — pick the "least bad" idea and iterate; perfect is the enemy of good
+
+## Quality Checklist
+
+- [ ] Output is specific and actionable, not generic
+- [ ] All relevant inputs have been gathered before producing output
+- [ ] Recommendations are prioritized by impact
+- [ ] Stakeholders and audience are identified
+- [ ] Output format matches the audience's needs
+- [ ] Key assumptions are documented
+- [ ] Follow-up actions have clear owners

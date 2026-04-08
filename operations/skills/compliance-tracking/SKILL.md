@@ -6,6 +6,7 @@ description: >
   TRIGGER when: user asks about compliance tracking, audit preparation, certification status,
   regulatory requirements, control mapping, or evidence collection.
 argument-hint: "<framework or compliance area>"
+user-invocable: true
 ---
 
 # Compliance Tracking

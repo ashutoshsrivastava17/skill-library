@@ -6,6 +6,7 @@ description: >
   TRIGGER when: user asks to optimize a process, reduce waste, improve efficiency,
   streamline a workflow, find bottlenecks, or reduce cycle time.
 argument-hint: "<process name or area to optimize>"
+user-invocable: true
 ---
 
 # Process Optimization
@@ -150,3 +151,13 @@ Use the 5 Whys or Fishbone (Ishikawa) approach for each major issue:
 - **Recently changed processes**: Distinguish between process issues and adoption issues
 - **Automated processes**: Focus on exception handling, monitoring, and integration points
 - **Customer-facing processes**: Weight customer experience impact heavily in prioritization
+
+## Quality Checklist
+
+- [ ] Output is specific and actionable, not generic
+- [ ] All relevant inputs have been gathered before producing output
+- [ ] Recommendations are prioritized by impact
+- [ ] Stakeholders and audience are identified
+- [ ] Output format matches the audience's needs
+- [ ] Key assumptions are documented
+- [ ] Follow-up actions have clear owners

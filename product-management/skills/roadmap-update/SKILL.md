@@ -6,6 +6,7 @@ description: >
   TRIGGER when: user asks to update the roadmap, reprioritize features, replan the
   product timeline, adjust quarterly plans, or triage new requests against existing plans.
 argument-hint: "[new input, changed priority, or time horizon]"
+user-invocable: true
 ---
 
 # Product Roadmap Update
@@ -154,3 +155,13 @@ For items that were cut or moved, document the rationale:
 - **Capacity reduction**: force-rank ruthlessly; cut scope before cutting quality
 - **Too many P0s**: escalate — if everything is P0, nothing is; help the user make hard choices
 - **External commitment at risk**: flag immediately and propose options (scope cut, timeline shift, resource ask)
+
+## Quality Checklist
+
+- [ ] Output is specific and actionable, not generic
+- [ ] All relevant inputs have been gathered before producing output
+- [ ] Recommendations are prioritized by impact
+- [ ] Stakeholders and audience are identified
+- [ ] Output format matches the audience's needs
+- [ ] Key assumptions are documented
+- [ ] Follow-up actions have clear owners

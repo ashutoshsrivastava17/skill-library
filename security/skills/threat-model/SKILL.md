@@ -76,3 +76,13 @@ Present findings as a structured document with:
 - For infrastructure changes: focus on network segmentation, secrets management, and access control
 - For third-party integrations: focus on supply chain risk, data sharing, and trust boundaries
 - For client-side changes: focus on XSS, CSRF, and sensitive data exposure
+
+## Quality Checklist
+
+- [ ] Output is specific and actionable, not generic
+- [ ] All relevant inputs have been gathered before producing output
+- [ ] Recommendations are prioritized by impact
+- [ ] Stakeholders and audience are identified
+- [ ] Output format matches the audience's needs
+- [ ] Key assumptions are documented
+- [ ] Follow-up actions have clear owners

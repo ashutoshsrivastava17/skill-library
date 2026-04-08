@@ -5,6 +5,7 @@ description: >
   TRIGGER when: user says "design system", "component library", "design tokens",
   "style guide", "create a component", or works on systematic design infrastructure.
 argument-hint: "[create|audit|extend|document] [component or token name]"
+user-invocable: true
 ---
 
 # Design System
@@ -185,3 +186,21 @@ Output an audit report:
 - **Accessible by default**: Accessibility is built in, not bolted on.
 - **Document decisions**: Record *why* a pattern exists, not just *what* it is.
 - **Minimal viable system**: Start with what you need. Don't pre-build unused components.
+
+## Quality Checklist
+
+- [ ] Output is specific and actionable, not generic
+- [ ] All relevant inputs have been gathered before producing output
+- [ ] Recommendations are prioritized by impact
+- [ ] Stakeholders and audience are identified
+- [ ] Output format matches the audience's needs
+- [ ] Key assumptions are documented
+- [ ] Follow-up actions have clear owners
+
+## Edge Cases
+
+- If input data is incomplete, state assumptions explicitly and flag gaps
+- For time-sensitive situations, prioritize speed over comprehensiveness
+- If multiple stakeholders have conflicting needs, document the tradeoffs
+- For first-time use, start with a simplified version and iterate
+- Adapt the depth and detail to the audience's expertise level

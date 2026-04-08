@@ -6,6 +6,7 @@ description: >
   TRIGGER when: user asks to plan capacity, allocate resources, forecast staffing needs,
   balance workloads, or assess team bandwidth.
 argument-hint: "<team or project context>"
+user-invocable: true
 ---
 
 # Capacity Planning
@@ -105,3 +106,13 @@ Provide 3-5 prioritized recommendations with effort and impact:
 - **Part-time contractors**: Clearly separate FTE and contractor capacity
 
 Always present the plan in a format ready for leadership review.
+
+## Quality Checklist
+
+- [ ] Output is specific and actionable, not generic
+- [ ] All relevant inputs have been gathered before producing output
+- [ ] Recommendations are prioritized by impact
+- [ ] Stakeholders and audience are identified
+- [ ] Output format matches the audience's needs
+- [ ] Key assumptions are documented
+- [ ] Follow-up actions have clear owners

@@ -7,6 +7,7 @@ description: >
   TRIGGER when: user asks to write a spec, PRD, feature spec, product requirements
   document, requirements doc, or specification from a problem or feature idea.
 argument-hint: "[problem statement or feature idea]"
+user-invocable: true
 ---
 
 # Feature Spec / PRD Writer

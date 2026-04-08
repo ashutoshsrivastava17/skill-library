@@ -6,6 +6,7 @@ description: >
   TRIGGER when: user asks to create a runbook, document operational procedures,
   write on-call playbook, create incident response procedures, or document system operations.
 argument-hint: "<system or service name>"
+user-invocable: true
 ---
 
 # Operational Runbook

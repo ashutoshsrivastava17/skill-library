@@ -7,6 +7,7 @@ description: >
   team design, org chart, role definition, span of control,
   reorg, team topology, or workforce planning.
 argument-hint: "<team_or_org> [--headcount <number>] [--scenario <growth|restructure|reduction>]"
+user-invocable: true
 ---
 
 # Organizational Planning
@@ -201,3 +202,13 @@ Timeline:  {X} months to full capacity
 - **Global expansion**: Account for local labor laws, time zones, cultural norms, and entity setup
 - **Founder-led to professional management**: Sensitive transition; define clear delegation and decision rights
 - **Remote-first transition**: Rethink coordination mechanisms, async-first processes, and location-based comp
+
+## Quality Checklist
+
+- [ ] Output is specific and actionable, not generic
+- [ ] All relevant inputs have been gathered before producing output
+- [ ] Recommendations are prioritized by impact
+- [ ] Stakeholders and audience are identified
+- [ ] Output format matches the audience's needs
+- [ ] Key assumptions are documented
+- [ ] Follow-up actions have clear owners

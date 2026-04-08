@@ -5,6 +5,7 @@ description: >
   TRIGGER when: user says "handoff specs", "dev specs", "developer handoff",
   "generate specs from Figma", "implementation spec", or needs to translate design to code requirements.
 argument-hint: "[design file, screenshot, or Figma link description]"
+user-invocable: true
 ---
 
 # Design Handoff

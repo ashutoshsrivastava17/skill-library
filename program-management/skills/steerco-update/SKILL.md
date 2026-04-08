@@ -199,3 +199,13 @@ DECISIONS MADE
 - **Steerco member is disengaged**: provide a pre-read summary and flag specific items that need their input; consider a 1:1 before the meeting
 - **Conflicting information from workstreams**: reconcile before the meeting; do not present conflicting data — escalate to the program lead if alignment cannot be reached
 - **Last-minute changes**: have a "changes since pre-read" callout at the top if material updates occurred after the pre-read was distributed
+
+## Quality Checklist
+
+- [ ] Output is specific and actionable, not generic
+- [ ] All relevant inputs have been gathered before producing output
+- [ ] Recommendations are prioritized by impact
+- [ ] Stakeholders and audience are identified
+- [ ] Output format matches the audience's needs
+- [ ] Key assumptions are documented
+- [ ] Follow-up actions have clear owners

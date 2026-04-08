@@ -7,6 +7,7 @@ description: >
   TRIGGER when: user asks to synthesize research, analyze user interviews, process
   survey results, extract themes from feedback, or summarize usability findings.
 argument-hint: "[research data, transcripts, or study description]"
+user-invocable: true
 ---
 
 # User Research Synthesis
@@ -176,3 +177,13 @@ Be transparent about:
 - **No clear themes emerge**: the finding IS the finding — report heterogeneity as an insight
 - **Stakeholder has a preferred answer**: present data neutrally; flag when data contradicts assumptions
 - **Mixed methods**: triangulate — a finding supported by both quant and qual is stronger
+
+## Quality Checklist
+
+- [ ] Output is specific and actionable, not generic
+- [ ] All relevant inputs have been gathered before producing output
+- [ ] Recommendations are prioritized by impact
+- [ ] Stakeholders and audience are identified
+- [ ] Output format matches the audience's needs
+- [ ] Key assumptions are documented
+- [ ] Follow-up actions have clear owners

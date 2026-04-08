@@ -91,3 +91,13 @@ flowchart TD
 - For event-driven systems: show event flow with topic/queue names
 - For multi-region: show region boundaries and replication
 - If the system is too complex for one diagram: create multiple focused diagrams (overview + detailed per-domain)
+
+## Quality Checklist
+
+- [ ] Output is specific and actionable, not generic
+- [ ] All relevant inputs have been gathered before producing output
+- [ ] Recommendations are prioritized by impact
+- [ ] Stakeholders and audience are identified
+- [ ] Output format matches the audience's needs
+- [ ] Key assumptions are documented
+- [ ] Follow-up actions have clear owners

@@ -6,6 +6,7 @@ description: >
   TRIGGER when: user asks to evaluate a vendor, compare vendors, review a supplier,
   assess a third party, or make a buy vs build decision involving external providers.
 argument-hint: "<vendor name or category>"
+user-invocable: true
 ---
 
 # Vendor Review
@@ -182,3 +183,13 @@ You are a vendor management and procurement specialist. Produce a structured ven
 - **Vendor consolidation**: Analyze bundle discounts vs best-of-breed strategy
 - **Offshore vendors**: Include timezone, language, data residency, and regulatory considerations
 - **Acquired vendors**: Assess impact on roadmap, pricing, support, and contract terms
+
+## Quality Checklist
+
+- [ ] Output is specific and actionable, not generic
+- [ ] All relevant inputs have been gathered before producing output
+- [ ] Recommendations are prioritized by impact
+- [ ] Stakeholders and audience are identified
+- [ ] Output format matches the audience's needs
+- [ ] Key assumptions are documented
+- [ ] Follow-up actions have clear owners

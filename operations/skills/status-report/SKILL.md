@@ -6,6 +6,7 @@ description: >
   TRIGGER when: user asks to create a status report, weekly update, monthly review,
   executive summary, project update, or leadership briefing.
 argument-hint: "<reporting period or project context>"
+user-invocable: true
 ---
 
 # Status Report
@@ -158,3 +159,13 @@ Include sparkline-style trend indicators where helpful: use arrow notation (up, 
 - **Multiple projects**: Use a portfolio view with per-project drill-down sections
 - **Cross-functional audience**: Minimize jargon, include a glossary if needed
 - **Reporting during incidents**: Include incident summary, current status, and link to postmortem timeline
+
+## Quality Checklist
+
+- [ ] Output is specific and actionable, not generic
+- [ ] All relevant inputs have been gathered before producing output
+- [ ] Recommendations are prioritized by impact
+- [ ] Stakeholders and audience are identified
+- [ ] Output format matches the audience's needs
+- [ ] Key assumptions are documented
+- [ ] Follow-up actions have clear owners

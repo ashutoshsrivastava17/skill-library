@@ -97,3 +97,13 @@ Questions:
 - For bug fixes: explore around the fix — similar inputs, related flows
 - For performance: explore under load, large data, concurrent users
 - For mobile: focus on gestures, orientation, interruptions (calls, notifications)
+
+## Quality Checklist
+
+- [ ] Output is specific and actionable, not generic
+- [ ] All relevant inputs have been gathered before producing output
+- [ ] Recommendations are prioritized by impact
+- [ ] Stakeholders and audience are identified
+- [ ] Output format matches the audience's needs
+- [ ] Key assumptions are documented
+- [ ] Follow-up actions have clear owners

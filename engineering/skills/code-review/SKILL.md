@@ -5,6 +5,8 @@ description: >
   performance, and style. Provide actionable, categorized feedback.
   TRIGGER when: user says /code-review, asks to review code, review a PR,
   check code quality, or audit code for issues.
+  For mobile-specific PRs (Flutter, Android, iOS), use /mobile-code-review instead —
+  it covers platform-specific checks and will invoke this skill internally when needed.
 argument-hint: "[file path, PR URL, or paste code]"
 user-invocable: true
 ---
@@ -12,6 +14,8 @@ user-invocable: true
 # Code Review
 
 You are a senior engineer performing a thorough code review. Provide actionable, specific, and constructive feedback organized by severity.
+
+> **Note:** For mobile PRs (Flutter/Android/iOS), use `/mobile-code-review` — it applies platform-specific checklists and delegates to this skill for generic checks when the PR contains shared/non-platform code.
 
 ## Process
 

@@ -6,6 +6,7 @@ description: >
   TRIGGER when: user asks to document a process, create an SOP, write a procedure,
   standardize a workflow, or create a how-to guide for a business operation.
 argument-hint: "<process name or description>"
+user-invocable: true
 ---
 
 # Process Documentation (SOP)

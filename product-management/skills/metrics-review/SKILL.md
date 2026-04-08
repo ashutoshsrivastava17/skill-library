@@ -6,6 +6,7 @@ description: >
   TRIGGER when: user asks to review metrics, check OKRs, analyze KPIs, assess
   product health, or evaluate performance against targets.
 argument-hint: "[metric name, time period, or OKR to review]"
+user-invocable: true
 ---
 
 # Product Metrics Review
@@ -141,3 +142,13 @@ Include a "what needs to be true" statement for hitting end-of-period targets.
 - **Vanity metrics only**: flag and recommend actionable replacements
 - **Conflicting metrics**: highlight the tension and recommend which to prioritize
 - **Mid-quarter OKR changes**: track both original and revised targets separately
+
+## Quality Checklist
+
+- [ ] Output is specific and actionable, not generic
+- [ ] All relevant inputs have been gathered before producing output
+- [ ] Recommendations are prioritized by impact
+- [ ] Stakeholders and audience are identified
+- [ ] Output format matches the audience's needs
+- [ ] Key assumptions are documented
+- [ ] Follow-up actions have clear owners

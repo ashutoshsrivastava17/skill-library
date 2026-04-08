@@ -5,6 +5,7 @@ description: >
   TRIGGER when: user says "synthesize research", "analyze interviews", "find patterns",
   "research themes", "insight mapping", or has raw research data to distill.
 argument-hint: "[research data file or description]"
+user-invocable: true
 ---
 
 # Research Synthesis
@@ -120,3 +121,21 @@ Plot insights on an impact/effort matrix:
 - **Quantify where possible**: "Most users" is weak. "7 of 10 users" is strong.
 - **Preserve participant voices**: Include direct quotes — they're the most compelling evidence.
 - **Flag confidence levels**: Be honest about what the data supports vs. what's inferred.
+
+## Quality Checklist
+
+- [ ] Output is specific and actionable, not generic
+- [ ] All relevant inputs have been gathered before producing output
+- [ ] Recommendations are prioritized by impact
+- [ ] Stakeholders and audience are identified
+- [ ] Output format matches the audience's needs
+- [ ] Key assumptions are documented
+- [ ] Follow-up actions have clear owners
+
+## Edge Cases
+
+- If input data is incomplete, state assumptions explicitly and flag gaps
+- For time-sensitive situations, prioritize speed over comprehensiveness
+- If multiple stakeholders have conflicting needs, document the tradeoffs
+- For first-time use, start with a simplified version and iterate
+- Adapt the depth and detail to the audience's expertise level

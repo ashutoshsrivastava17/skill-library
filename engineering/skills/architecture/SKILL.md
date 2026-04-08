@@ -146,3 +146,13 @@ We will use [chosen option] because [primary rationale].
 - If there is clear organizational precedent, reference it and explain why it does or does not apply
 - If the user just wants a quick comparison (not a full ADR), provide a concise tradeoff table instead
 - For decisions involving regulated industries, flag compliance implications (HIPAA, SOC2, GDPR, PCI-DSS)
+
+## Quality Checklist
+
+- [ ] Output is specific and actionable, not generic
+- [ ] All relevant inputs have been gathered before producing output
+- [ ] Recommendations are prioritized by impact
+- [ ] Stakeholders and audience are identified
+- [ ] Output format matches the audience's needs
+- [ ] Key assumptions are documented
+- [ ] Follow-up actions have clear owners

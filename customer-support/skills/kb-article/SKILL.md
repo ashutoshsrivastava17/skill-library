@@ -7,6 +7,7 @@ description: >
   "document this", "help article", "FAQ entry", "self-service", "deflection article",
   "create documentation for this issue", or "turn this into a doc".
 argument-hint: "<resolved ticket ID or issue description>"
+user-invocable: true
 ---
 
 # Knowledge Base Article Creation

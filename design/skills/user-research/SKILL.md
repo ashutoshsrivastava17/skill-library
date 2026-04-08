@@ -5,6 +5,7 @@ description: >
   TRIGGER when: user says "plan research", "interview guide", "survey questions",
   "usability test", "research plan", or needs to design a study.
 argument-hint: "[plan|interview|survey|usability-test] [research topic]"
+user-invocable: true
 ---
 
 # User Research
@@ -215,3 +216,21 @@ Generate a complete research plan:
 - **Observe behavior, not just opinions**: What people do matters more than what they say they'd do.
 - **Pilot test**: Always recommend testing the guide/survey with 1-2 people before full launch.
 - **Ethics**: Include consent, data handling, and right-to-withdraw in all study designs.
+
+## Quality Checklist
+
+- [ ] Output is specific and actionable, not generic
+- [ ] All relevant inputs have been gathered before producing output
+- [ ] Recommendations are prioritized by impact
+- [ ] Stakeholders and audience are identified
+- [ ] Output format matches the audience's needs
+- [ ] Key assumptions are documented
+- [ ] Follow-up actions have clear owners
+
+## Edge Cases
+
+- If input data is incomplete, state assumptions explicitly and flag gaps
+- For time-sensitive situations, prioritize speed over comprehensiveness
+- If multiple stakeholders have conflicting needs, document the tradeoffs
+- For first-time use, start with a simplified version and iterate
+- Adapt the depth and detail to the audience's expertise level

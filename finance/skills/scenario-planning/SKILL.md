@@ -1,5 +1,5 @@
 ---
-name: financial-scenario
+name: scenario-planning
 description: >
   Model financial scenarios — base, upside, and downside cases with revenue,
   cost, and cash flow projections. Produce scenario comparison tables with

@@ -7,6 +7,7 @@ description: >
   leave policy, expense policy, remote work policy, code of conduct,
   compliance question, or "what is the policy on."
 argument-hint: "<policy_topic> [--jurisdiction <state|country>] [--audience <employee|manager|hr>]"
+user-invocable: true
 ---
 
 # Policy Lookup & Explanation
@@ -179,3 +180,13 @@ Always include when providing policy guidance:
 - **International employees**: Flag that US-centric advice may not apply; recommend local HR or counsel
 - **Union environments**: Note that CBA terms may override standard company policies
 - **Pending policy changes**: If discussing a policy area undergoing legislative change, note the uncertainty
+
+## Quality Checklist
+
+- [ ] Output is specific and actionable, not generic
+- [ ] All relevant inputs have been gathered before producing output
+- [ ] Recommendations are prioritized by impact
+- [ ] Stakeholders and audience are identified
+- [ ] Output format matches the audience's needs
+- [ ] Key assumptions are documented
+- [ ] Follow-up actions have clear owners

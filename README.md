@@ -2,7 +2,7 @@
 
 A collection of reusable AI agent skill plugins, organized by category. Each plugin is independently installable and works with any AI agent that supports the skill/plugin format.
 
-**391 skills across 31 plugins.**
+**416 skills across 31 plugins.**
 
 ## Plugins
 
@@ -16,9 +16,9 @@ A collection of reusable AI agent skill plugins, organized by category. Each plu
 | [customer-support](customer-support/) | 10 | Ticket triage, chatbot design, self-service optimization, CSAT, support training |
 | [data](data/) | 17 | SQL, visualization, pipelines, ML evaluation, data governance, data catalog, statistical analysis |
 | [design](design/) | 11 | Design critique, sprints, wireframe review, motion specs, accessibility, UX writing |
-| [devops](devops/) | 15 | CI/CD, chaos engineering, containers, GitOps, monitoring, SLOs, disaster recovery |
+| [devops](devops/) | 17 | CI/CD, chaos engineering, containers, GitOps, monitoring, SLOs, disaster recovery, mobile CI/CD, app store releases |
 | [documentation](documentation/) | 12 | API docs, release docs, video scripts, knowledge bases, changelogs, architecture diagrams |
-| [engineering](engineering/) | 21 | Code review, architecture, API design, monorepos, feature flags, observability, debugging |
+| [engineering](engineering/) | 43 | Code review, architecture, API/SDK design, mobile (architecture, security, networking, accessibility, analytics, push notifications, state, persistence, design patterns, performance, code review), backend architecture, cross-platform strategy, SOLID principles |
 | [enterprise-search](enterprise-search/) | 11 | Cross-tool search, knowledge graphs, taxonomy design, information architecture, content curation |
 | [finance](finance/) | 15 | Budgeting, forecasting, financial modeling, tax planning, audit preparation, cost optimization |
 | [human-resources](human-resources/) | 15 | Recruiting, D&I, workforce planning, succession, engagement, performance reviews |
@@ -32,7 +32,7 @@ A collection of reusable AI agent skill plugins, organized by category. Each plu
 | [product-management](product-management/) | 17 | Feature specs, product launches, beta programs, analytics, prioritization, roadmaps |
 | [productivity](productivity/) | 12 | Task management, automation audit, delegation, focus planning, time audits |
 | [program-management](program-management/) | 11 | RAID logs, stakeholder analysis, benefits realization, portfolio governance, lessons learned |
-| [qa-testing](qa-testing/) | 13 | Test planning, security testing, accessibility testing, load testing, automation strategy |
+| [qa-testing](qa-testing/) | 14 | Test planning, security testing, accessibility testing, load testing, automation strategy, mobile testing |
 | [risk-management](risk-management/) | 11 | Risk registers, BCP, crisis simulation, cyber risk, fraud risk, operational risk |
 | [sales](sales/) | 13 | Discovery calls, demos, territory plans, sales enablement, pricing strategy, forecasting |
 | [security](security/) | 15 | Threat modeling, zero trust, cloud security, awareness programs, pen testing, IR plans |
@@ -66,14 +66,14 @@ A collection of reusable AI agent skill plugins, organized by category. Each plu
 ### Design (11)
 `/accessibility-review` `/design-critique` `/design-handoff` `/design-sprint` `/design-system` `/motion-design-spec` `/research-synthesis` `/usability-test-plan` `/user-research` `/ux-copy` `/wireframe-review`
 
-### DevOps (15)
-`/alert-tuning` `/chaos-engineering` `/ci-cd-pipeline` `/cloud-cost-review` `/container-strategy` `/deployment-strategy` `/disaster-recovery` `/game-day-plan` `/gitops-review` `/incident-runbook` `/infrastructure-review` `/monitoring-setup` `/rollback-plan` `/service-catalog-review` `/slo-tracking`
+### DevOps (17)
+`/alert-tuning` `/app-store-release` `/chaos-engineering` `/ci-cd-pipeline` `/cloud-cost-review` `/container-strategy` `/deployment-strategy` `/disaster-recovery` `/game-day-plan` `/gitops-review` `/incident-runbook` `/infrastructure-review` `/mobile-ci-cd` `/monitoring-setup` `/rollback-plan` `/service-catalog-review` `/slo-tracking`
 
 ### Documentation (12)
 `/api-docs` `/architecture-diagram` `/changelog` `/decision-record` `/implementation-guide` `/knowledge-base-design` `/onboarding-guide` `/release-documentation` `/runbook-writer` `/style-guide` `/troubleshooting-guide` `/video-script`
 
-### Engineering (21)
-`/api-design` `/architecture` `/build-vs-buy` `/code-review` `/database-design` `/debug` `/dependency-audit` `/deploy-checklist` `/design-review` `/documentation` `/feature-flag-plan` `/incident-response` `/migration-plan` `/monorepo-strategy` `/observability-design` `/performance-profiling` `/refactor-plan` `/standup` `/system-design` `/tech-debt` `/testing-strategy`
+### Engineering (43)
+`/accessibility-implementation` `/api-design` `/architecture` `/auth-design` `/backend-architecture` `/build-vs-buy` `/caching-strategy` `/code-review` `/cost-estimation` `/cross-platform-strategy` `/database-design` `/debug` `/dependency-audit` `/deploy-checklist` `/design-review` `/documentation` `/event-architecture` `/feature-flag-plan` `/i18n-strategy` `/incident-response` `/legacy-code-assessment` `/microservices-decomposition` `/migration-plan` `/mobile-accessibility` `/mobile-analytics` `/mobile-architecture` `/mobile-code-review` `/mobile-data-persistence` `/mobile-design-patterns` `/mobile-networking` `/mobile-performance` `/mobile-push-notifications` `/mobile-security` `/mobile-state-management` `/monorepo-strategy` `/observability-design` `/performance-profiling` `/refactor-plan` `/sdk-design` `/solid-principles` `/standup` `/system-design` `/tech-debt` `/technical-rfc` `/testing-strategy`
 
 ### Enterprise Search (11)
 `/competitive-intel` `/content-curation` `/digest` `/information-architecture` `/knowledge-graph` `/knowledge-synthesis` `/search` `/search-analytics` `/search-strategy` `/source-management` `/taxonomy-design`
@@ -114,8 +114,8 @@ A collection of reusable AI agent skill plugins, organized by category. Each plu
 ### Program Management (11)
 `/benefits-realization` `/dependency-mapping` `/lessons-learned` `/milestone-review` `/portfolio-governance` `/program-change-management` `/program-status` `/raid-log` `/resource-allocation` `/stakeholder-analysis` `/steerco-update`
 
-### QA & Testing (13)
-`/accessibility-testing` `/api-test-plan` `/bug-report` `/exploratory-testing` `/load-testing` `/performance-test-plan` `/regression-check` `/release-signoff` `/security-testing` `/test-automation-strategy` `/test-case-prioritization` `/test-coverage` `/test-plan`
+### QA & Testing (14)
+`/accessibility-testing` `/api-test-plan` `/bug-report` `/exploratory-testing` `/load-testing` `/mobile-testing` `/performance-test-plan` `/regression-check` `/release-signoff` `/security-testing` `/test-automation-strategy` `/test-case-prioritization` `/test-coverage` `/test-plan`
 
 ### Risk Management (11)
 `/bcp-plan` `/control-testing` `/crisis-simulation` `/cyber-risk` `/fraud-risk` `/insurance-review` `/operational-risk` `/risk-appetite` `/risk-register` `/risk-reporting` `/third-party-risk`
@@ -214,6 +214,10 @@ These plugins are designed to work well together. Here are some useful combinati
 | Partner launch | `partnerships` + `engineering` + `marketing` + `legal` | `/partner-evaluation` -> `/integration-readiness` -> `/alliance-plan` -> `/co-marketing-brief` -> `/contract-review` |
 | AI feature launch | `ai-operations` + `engineering` + `security` + `documentation` | `/prompt-eval` -> `/llm-risk-review` -> `/model-cost-review` -> `/design-review` -> `/agent-runbook` |
 
+| Mobile app development | `engineering` + `qa-testing` + `devops` | `/mobile-architecture` -> `/mobile-design-patterns` -> `/mobile-state-management` -> `/mobile-testing` -> `/mobile-ci-cd` -> `/app-store-release` |
+| Mobile code quality | `engineering` + `qa-testing` | `/solid-principles` -> `/mobile-code-review` -> `/mobile-testing` -> `/mobile-performance` |
+| Backend service design | `engineering` + `devops` + `security` | `/backend-architecture` -> `/api-design` -> `/database-design` -> `/deployment-strategy` -> `/security-review` |
+
 ### Quick Bundles
 
 - `Builder bundle`: `engineering` + `qa-testing` + `documentation`
@@ -234,6 +238,39 @@ These plugins are designed to work well together. Here are some useful combinati
 - `Procurement bundle`: `procurement` + `legal` + `finance`
 - `Partner bundle`: `partnerships` + `sales` + `marketing`
 - `AI builder`: `ai-operations` + `engineering` + `security`
+- `Mobile bundle`: `engineering` + `qa-testing` + `devops` (mobile-architecture, mobile-testing, mobile-ci-cd, app-store-release)
+
+## Skills by Platform (Cross-Reference)
+
+Skills are organized by domain (not technology), but many cover platform-specific dialects. This index groups them by platform for discoverability.
+
+### Mobile (Flutter / Android / iOS)
+| Skill | Plugin | Covers |
+|---|---|---|
+| `/mobile-architecture` | engineering | App structure, patterns, modularization, navigation |
+| `/mobile-design-patterns` | engineering | MVC, MVP, MVVM, MVI, Clean Architecture, VIPER, TCA, BLoC |
+| `/mobile-state-management` | engineering | BLoC, Riverpod, ViewModel+StateFlow, @Observable, TCA, LiveData, RxJava |
+| `/mobile-data-persistence` | engineering | Room, CoreData, SwiftData, Hive, Drift, SharedPrefs, UserDefaults, Keychain |
+| `/mobile-networking` | engineering | Dio, Retrofit/OkHttp, URLSession/Alamofire, token refresh, caching, WebSocket |
+| `/mobile-security` | engineering | Cert pinning, obfuscation, root/jailbreak detection, biometric auth, app hardening |
+| `/mobile-accessibility` | engineering | TalkBack, VoiceOver, Semantics, dynamic type, contrast, touch targets, focus |
+| `/mobile-performance` | engineering | Startup, jank, memory, battery, app size, network efficiency |
+| `/mobile-push-notifications` | engineering | FCM, APNs, local notifications, rich media, channels, deep link from notification |
+| `/mobile-analytics` | engineering | Firebase Analytics, Mixpanel, Crashlytics, Sentry, event tracking, privacy (ATT) |
+| `/mobile-code-review` | engineering | Platform-specific PR review checklists |
+| `/cross-platform-strategy` | engineering | Flutter vs. native vs. KMP vs. React Native decision framework |
+| `/mobile-testing` | qa-testing | Unit, widget, integration, snapshot, E2E, device matrix |
+| `/mobile-ci-cd` | devops | Build automation, code signing, Fastlane, distribution |
+| `/app-store-release` | devops | Google Play + Apple App Store submission, rollout, monitoring |
+| `/solid-principles` | engineering | SOLID with mobile + backend examples |
+
+### Backend (Spring / Node / Django / Go)
+| Skill | Plugin | Covers |
+|---|---|---|
+| `/backend-architecture` | engineering | Layering, frameworks, data layer, cross-cutting concerns |
+| `/api-design` | engineering | REST, GraphQL, gRPC design |
+| `/database-design` | engineering | Schema design, indexing, migrations |
+| `/solid-principles` | engineering | SOLID with backend + mobile examples |
 
 ## Installation
 
@@ -265,9 +302,9 @@ skill-library/
 ├── customer-support/       # 10 skills
 ├── data/                   # 17 skills
 ├── design/                 # 11 skills
-├── devops/                 # 15 skills
+├── devops/                 # 17 skills
 ├── documentation/          # 12 skills
-├── engineering/            # 21 skills
+├── engineering/            # 43 skills
 ├── enterprise-search/      # 11 skills
 ├── finance/                # 15 skills
 ├── human-resources/        # 15 skills
@@ -281,7 +318,7 @@ skill-library/
 ├── product-management/     # 17 skills
 ├── productivity/           # 12 skills
 ├── program-management/     # 11 skills
-├── qa-testing/             # 13 skills
+├── qa-testing/             # 14 skills
 ├── risk-management/        # 11 skills
 ├── sales/                  # 13 skills
 ├── security/               # 15 skills

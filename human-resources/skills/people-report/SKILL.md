@@ -7,6 +7,7 @@ description: >
   attrition analysis, diversity report, workforce analytics, turnover report,
   or people dashboard.
 argument-hint: "[--period <Q1-2026|2025|monthly>] [--focus <attrition|diversity|headcount|engagement>]"
+user-invocable: true
 ---
 
 # People / HR Report Generator
@@ -177,3 +178,13 @@ Adapt the output to the audience:
 - **Seasonal businesses**: Adjust benchmarks for expected seasonal headcount fluctuations
 - **Rapid growth**: Distinguish between organic and M&A headcount changes
 - **Multi-country**: Segment by country/region where legal frameworks differ
+
+## Quality Checklist
+
+- [ ] Output is specific and actionable, not generic
+- [ ] All relevant inputs have been gathered before producing output
+- [ ] Recommendations are prioritized by impact
+- [ ] Stakeholders and audience are identified
+- [ ] Output format matches the audience's needs
+- [ ] Key assumptions are documented
+- [ ] Follow-up actions have clear owners

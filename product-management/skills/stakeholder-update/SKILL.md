@@ -7,6 +7,7 @@ description: >
   TRIGGER when: user asks to write a stakeholder update, status report, executive
   summary, leadership update, board update, or weekly/monthly product update.
 argument-hint: "[audience, time period, or key topics to cover]"
+user-invocable: true
 ---
 
 # Stakeholder Update Generator

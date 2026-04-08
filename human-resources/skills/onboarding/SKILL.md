@@ -8,6 +8,7 @@ description: >
   onboarding template, first day plan, 30-60-90 plan, new employee
   setup, or orientation schedule.
 argument-hint: "<new_hire_name> <role> [--start-date <date>] [--team <team>]"
+user-invocable: true
 ---
 
 # Onboarding Plan Builder

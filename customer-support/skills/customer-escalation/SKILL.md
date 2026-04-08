@@ -7,6 +7,7 @@ description: >
   "critical issue", "P0", "P1", "sev1", "sev2", "customer at risk", "churn risk",
   "executive escalation", or "get engineering involved".
 argument-hint: "<ticket-id or issue description>"
+user-invocable: true
 ---
 
 # Customer Escalation Packaging
@@ -142,3 +143,11 @@ Before submitting the escalation, verify:
 - Use bullet points and tables, not paragraphs
 - Quantify everything: users, dollars, hours, percentage degradation
 - Flag unknowns explicitly rather than omitting them
+
+## Edge Cases
+
+- If input data is incomplete, state assumptions explicitly and flag gaps
+- For time-sensitive situations, prioritize speed over comprehensiveness
+- If multiple stakeholders have conflicting needs, document the tradeoffs
+- For first-time use, start with a simplified version and iterate
+- Adapt the depth and detail to the audience's expertise level

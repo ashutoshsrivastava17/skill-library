@@ -75,3 +75,13 @@ For each recommended test:
 - For legacy code: recommend testing the public interface first, then internals as code is refactored
 - For UI components: include visual regression and accessibility testing in the analysis
 - If coverage tools are available: reference their output but don't rely solely on line coverage metrics
+
+## Quality Checklist
+
+- [ ] Output is specific and actionable, not generic
+- [ ] All relevant inputs have been gathered before producing output
+- [ ] Recommendations are prioritized by impact
+- [ ] Stakeholders and audience are identified
+- [ ] Output format matches the audience's needs
+- [ ] Key assumptions are documented
+- [ ] Follow-up actions have clear owners

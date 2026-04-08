@@ -140,3 +140,13 @@ After presenting the digest, offer:
 2. "Should I search for more context on [top item]?"
 3. "Want me to draft responses to any pending mentions?"
 4. "Should I create tasks for the action items?"
+
+## Quality Checklist
+
+- [ ] Output is specific and actionable, not generic
+- [ ] All relevant inputs have been gathered before producing output
+- [ ] Recommendations are prioritized by impact
+- [ ] Stakeholders and audience are identified
+- [ ] Output format matches the audience's needs
+- [ ] Key assumptions are documented
+- [ ] Follow-up actions have clear owners

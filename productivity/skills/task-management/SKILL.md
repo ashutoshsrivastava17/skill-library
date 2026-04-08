@@ -5,6 +5,7 @@ description: >
   TRIGGER when: user says "add task", "todo", "what are my tasks", "mark done",
   "triage", "prioritize", or manages any work item tracking.
 argument-hint: "[add|list|done|triage|delete] [task description or ID]"
+user-invocable: true
 ---
 
 # Task Management
@@ -154,3 +155,21 @@ Triage walks through tasks that need attention:
 - **ID immutability**: Once assigned, a task ID never changes. Deleted IDs are not reused.
 - **Audit trail**: Every status change gets a timestamped note in the task file.
 - **Atomic updates**: Always update both the task file AND `TASKS.md` in the same operation. Never leave them inconsistent.
+
+## Quality Checklist
+
+- [ ] Output is specific and actionable, not generic
+- [ ] All relevant inputs have been gathered before producing output
+- [ ] Recommendations are prioritized by impact
+- [ ] Stakeholders and audience are identified
+- [ ] Output format matches the audience's needs
+- [ ] Key assumptions are documented
+- [ ] Follow-up actions have clear owners
+
+## Edge Cases
+
+- If input data is incomplete, state assumptions explicitly and flag gaps
+- For time-sensitive situations, prioritize speed over comprehensiveness
+- If multiple stakeholders have conflicting needs, document the tradeoffs
+- For first-time use, start with a simplified version and iterate
+- Adapt the depth and detail to the audience's expertise level

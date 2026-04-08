@@ -155,3 +155,13 @@ Higher score = fix sooner.
 - If debt is concentrated in one area, consider a focused rewrite vs incremental fixes
 - For legacy systems with no original authors, prioritize adding documentation and tests before changing code
 - Accept that some debt is intentional and acceptable — document the decision and revisit date
+
+## Quality Checklist
+
+- [ ] Output is specific and actionable, not generic
+- [ ] All relevant inputs have been gathered before producing output
+- [ ] Recommendations are prioritized by impact
+- [ ] Stakeholders and audience are identified
+- [ ] Output format matches the audience's needs
+- [ ] Key assumptions are documented
+- [ ] Follow-up actions have clear owners

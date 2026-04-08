@@ -86,3 +86,13 @@ A complete style guide document in markdown, ready to add to the project's docum
 - For API documentation: align with OpenAPI conventions
 - For internationalized projects: note translation-friendly writing practices
 - If existing docs are inconsistent: prioritize the most impactful standards first
+
+## Quality Checklist
+
+- [ ] Output is specific and actionable, not generic
+- [ ] All relevant inputs have been gathered before producing output
+- [ ] Recommendations are prioritized by impact
+- [ ] Stakeholders and audience are identified
+- [ ] Output format matches the audience's needs
+- [ ] Key assumptions are documented
+- [ ] Follow-up actions have clear owners

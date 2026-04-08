@@ -5,6 +5,7 @@ description: >
   TRIGGER when: user says "UX copy", "microcopy", "write copy for", "button text",
   "error message", "empty state", "onboarding copy", or needs interface text.
 argument-hint: "[screen, component, or flow to write copy for]"
+user-invocable: true
 ---
 
 # UX Copy
@@ -183,3 +184,11 @@ Before delivering copy:
 - [ ] Are destructive actions clearly described with consequences?
 - [ ] Would this make sense translated to another language?
 - [ ] Are instructions positive ("Enter your name") not negative ("Don't leave this blank")?
+
+## Edge Cases
+
+- If input data is incomplete, state assumptions explicitly and flag gaps
+- For time-sensitive situations, prioritize speed over comprehensiveness
+- If multiple stakeholders have conflicting needs, document the tradeoffs
+- For first-time use, start with a simplified version and iterate
+- Adapt the depth and detail to the audience's expertise level

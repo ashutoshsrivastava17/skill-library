@@ -7,6 +7,7 @@ description: >
   tracking, recruiting metrics, sourcing report, pipeline review, hiring
   forecast, or recruitment status.
 argument-hint: "[--role <role>] [--stage <sourcing|screen|interview|offer|closed>] [--report]"
+user-invocable: true
 ---
 
 # Recruiting Pipeline Management
@@ -209,3 +210,13 @@ Include:
 - **Referral-heavy pipelines**: Monitor for diversity impact; ensure referral bonus structure does not create bias
 - **Hiring freezes**: Maintain warm pipelines; communicate transparently with candidates in process
 - **Re-opened roles**: When an offer falls through or a hire does not work out, restart with urgency metrics
+
+## Quality Checklist
+
+- [ ] Output is specific and actionable, not generic
+- [ ] All relevant inputs have been gathered before producing output
+- [ ] Recommendations are prioritized by impact
+- [ ] Stakeholders and audience are identified
+- [ ] Output format matches the audience's needs
+- [ ] Key assumptions are documented
+- [ ] Follow-up actions have clear owners

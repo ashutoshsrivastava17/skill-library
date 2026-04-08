@@ -5,6 +5,7 @@ description: >
   TRIGGER when: user says "accessibility audit", "a11y review", "WCAG check",
   "is this accessible", or asks about color contrast, screen readers, keyboard navigation, or ARIA.
 argument-hint: "[file, URL, or component name]"
+user-invocable: true
 ---
 
 # Accessibility Review
@@ -136,3 +137,11 @@ Reference these when recommending fixes:
 - **Missing labels**: Prefer visible `<label>` over `aria-label` — visible labels help everyone
 - **Custom controls**: Use native HTML elements where possible; if custom, implement full ARIA pattern
 - **Dynamic content**: Use `aria-live` regions for content that updates without page reload
+
+## Edge Cases
+
+- If input data is incomplete, state assumptions explicitly and flag gaps
+- For time-sensitive situations, prioritize speed over comprehensiveness
+- If multiple stakeholders have conflicting needs, document the tradeoffs
+- For first-time use, start with a simplified version and iterate
+- Adapt the depth and detail to the audience's expertise level

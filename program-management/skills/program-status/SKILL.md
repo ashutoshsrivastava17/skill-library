@@ -207,3 +207,13 @@ Track key program-level metrics over time:
 - **Program in recovery mode**: restructure the report to lead with the recovery plan, progress against recovery milestones, and root-cause resolution status
 - **Data gaps (workstream leads not reporting)**: flag the gap explicitly; do not guess or fill in — show "[Not Reported]" and escalate the reporting failure
 - **Program nearing completion**: shift focus to transition planning, benefits realization, lessons learned, and handoff readiness rather than execution status
+
+## Quality Checklist
+
+- [ ] Output is specific and actionable, not generic
+- [ ] All relevant inputs have been gathered before producing output
+- [ ] Recommendations are prioritized by impact
+- [ ] Stakeholders and audience are identified
+- [ ] Output format matches the audience's needs
+- [ ] Key assumptions are documented
+- [ ] Follow-up actions have clear owners

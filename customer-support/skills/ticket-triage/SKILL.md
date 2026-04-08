@@ -7,6 +7,7 @@ description: >
   "prioritize ticket", "route ticket", "ticket came in", "assess this ticket",
   "what priority is this", or "where should this go".
 argument-hint: "<ticket content or ID>"
+user-invocable: true
 ---
 
 # Ticket Triage and Prioritization
@@ -178,3 +179,13 @@ Is it a how-to or feature request?
 - **Duplicate ticket from same customer**: Merge into original, update customer that you are tracking in one thread
 - **Ticket from internal employee**: Same triage process, but route to internal support queue if one exists
 - **Automated or bot-generated ticket**: Verify it represents a real issue before prioritizing
+
+## Quality Checklist
+
+- [ ] Output is specific and actionable, not generic
+- [ ] All relevant inputs have been gathered before producing output
+- [ ] Recommendations are prioritized by impact
+- [ ] Stakeholders and audience are identified
+- [ ] Output format matches the audience's needs
+- [ ] Key assumptions are documented
+- [ ] Follow-up actions have clear owners

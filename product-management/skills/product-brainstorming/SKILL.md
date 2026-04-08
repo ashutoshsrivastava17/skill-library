@@ -7,6 +7,7 @@ description: >
   TRIGGER when: user asks to brainstorm product ideas, ideate solutions, explore
   product concepts, or generate feature ideas for a specific problem.
 argument-hint: "[problem statement or opportunity area]"
+user-invocable: true
 ---
 
 # Structured Product Brainstorming
@@ -130,3 +131,13 @@ For the top 1-2 concepts, define:
 - **Too many constraints**: brainstorm in two rounds — unconstrained first, then constrained
 - **Solo brainstorming**: use role-playing (think as the user, the engineer, the CEO, the competitor)
 - **Idea already chosen**: shift to "How might we make X work?" and brainstorm implementation approaches
+
+## Quality Checklist
+
+- [ ] Output is specific and actionable, not generic
+- [ ] All relevant inputs have been gathered before producing output
+- [ ] Recommendations are prioritized by impact
+- [ ] Stakeholders and audience are identified
+- [ ] Output format matches the audience's needs
+- [ ] Key assumptions are documented
+- [ ] Follow-up actions have clear owners

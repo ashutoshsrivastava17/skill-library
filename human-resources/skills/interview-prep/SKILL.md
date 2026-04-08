@@ -7,6 +7,7 @@ description: >
   guide, build a rubric, design an interview loop, write evaluation criteria,
   or set up a scorecard.
 argument-hint: "<role> [--level <level>] [--round <screen|technical|behavioral|final>]"
+user-invocable: true
 ---
 
 # Interview Preparation Guide

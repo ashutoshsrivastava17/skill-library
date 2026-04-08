@@ -6,6 +6,7 @@ description: >
   TRIGGER when: user asks to assess risk, evaluate threats, create a risk register,
   perform a risk analysis, or identify and mitigate risks.
 argument-hint: "<risk area, project, or initiative>"
+user-invocable: true
 ---
 
 # Risk Assessment
@@ -145,3 +146,13 @@ For each Critical and High risk, provide:
 - **Multi-vendor dependencies**: Assess cascading failure risks across the vendor chain
 - **Unknown unknowns**: Include a category for emerging/unidentified risks with a review cadence
 - **Risk fatigue**: Keep the register focused on material risks; archive low/stable risks quarterly
+
+## Quality Checklist
+
+- [ ] Output is specific and actionable, not generic
+- [ ] All relevant inputs have been gathered before producing output
+- [ ] Recommendations are prioritized by impact
+- [ ] Stakeholders and audience are identified
+- [ ] Output format matches the audience's needs
+- [ ] Key assumptions are documented
+- [ ] Follow-up actions have clear owners

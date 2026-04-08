@@ -7,6 +7,7 @@ description: >
   benchmarking, comp analysis, market rate, salary range, total compensation,
   or pay adjustments.
 argument-hint: "<role_or_team> [--level <level>] [--location <geo>] [--currency <USD|EUR|GBP>]"
+user-invocable: true
 ---
 
 # Compensation Benchmarking Analysis
@@ -143,3 +144,13 @@ Always disclose:
 - **International hires**: Factor in statutory benefits, mandatory bonuses (13th month), and tax implications
 - **Retention counters**: If analyzing a retention counter-offer, compare against external offer, not just internal bands
 - **Promotion comp changes**: Standard promotion increase is 10-15%; flag if the proposed adjustment deviates significantly
+
+## Quality Checklist
+
+- [ ] Output is specific and actionable, not generic
+- [ ] All relevant inputs have been gathered before producing output
+- [ ] Recommendations are prioritized by impact
+- [ ] Stakeholders and audience are identified
+- [ ] Output format matches the audience's needs
+- [ ] Key assumptions are documented
+- [ ] Follow-up actions have clear owners

@@ -90,3 +90,13 @@ Structured markdown suitable for a docs site or README. Group endpoints by resou
 - For WebSocket: document connection, message types, and event flows
 - For gRPC: document service definitions, message types, and streaming patterns
 - If types are loose (e.g., plain JS): infer schemas from usage and note uncertainty
+
+## Quality Checklist
+
+- [ ] Output is specific and actionable, not generic
+- [ ] All relevant inputs have been gathered before producing output
+- [ ] Recommendations are prioritized by impact
+- [ ] Stakeholders and audience are identified
+- [ ] Output format matches the audience's needs
+- [ ] Key assumptions are documented
+- [ ] Follow-up actions have clear owners

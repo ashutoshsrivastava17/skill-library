@@ -71,3 +71,13 @@ Check for:
 - For multi-tenant systems: verify tenant isolation at every layer
 - For public APIs: check API key scoping, rate limits, and OAuth scope enforcement
 - For serverless: check function-level IAM permissions
+
+## Quality Checklist
+
+- [ ] Output is specific and actionable, not generic
+- [ ] All relevant inputs have been gathered before producing output
+- [ ] Recommendations are prioritized by impact
+- [ ] Stakeholders and audience are identified
+- [ ] Output format matches the audience's needs
+- [ ] Key assumptions are documented
+- [ ] Follow-up actions have clear owners

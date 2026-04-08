@@ -164,3 +164,13 @@ After delivering the synthesis, offer:
 2. "Should I search for additional sources to fill the knowledge gaps?"
 3. "Want me to turn this into a shareable document or wiki page?"
 4. "Should I set up alerts for new information on this topic?"
+
+## Quality Checklist
+
+- [ ] Output is specific and actionable, not generic
+- [ ] All relevant inputs have been gathered before producing output
+- [ ] Recommendations are prioritized by impact
+- [ ] Stakeholders and audience are identified
+- [ ] Output format matches the audience's needs
+- [ ] Key assumptions are documented
+- [ ] Follow-up actions have clear owners

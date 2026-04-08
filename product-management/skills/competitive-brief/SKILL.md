@@ -6,6 +6,7 @@ description: >
   TRIGGER when: user asks to analyze competitors, compare products, write a competitive
   brief, assess market landscape, or benchmark against rivals.
 argument-hint: "[competitor name or market segment]"
+user-invocable: true
 ---
 
 # Competitive Analysis Brief
@@ -127,3 +128,13 @@ Structure the final brief with:
 - **Pre-launch product**: focus on the market gap analysis and positioning opportunity
 - **Rapidly changing market**: add a "signals to watch" section with leading indicators
 - **Regulated industry**: include a compliance comparison row in feature matrix
+
+## Quality Checklist
+
+- [ ] Output is specific and actionable, not generic
+- [ ] All relevant inputs have been gathered before producing output
+- [ ] Recommendations are prioritized by impact
+- [ ] Stakeholders and audience are identified
+- [ ] Output format matches the audience's needs
+- [ ] Key assumptions are documented
+- [ ] Follow-up actions have clear owners

@@ -166,3 +166,11 @@ What are you showing?
 - [ ] Source is credited
 - [ ] Accessibility standards are met (contrast, alt text)
 - [ ] Chart works at intended output size and format
+
+## Edge Cases
+
+- If input data is incomplete, state assumptions explicitly and flag gaps
+- For time-sensitive situations, prioritize speed over comprehensiveness
+- If multiple stakeholders have conflicting needs, document the tradeoffs
+- For first-time use, start with a simplified version and iterate
+- Adapt the depth and detail to the audience's expertise level

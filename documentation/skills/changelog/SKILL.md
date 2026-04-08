@@ -84,3 +84,13 @@ A single changelog entry in Keep a Changelog markdown format, ready to prepend t
 - For security releases: include CVE IDs and severity if available
 - For large releases: add a summary paragraph before the categorized list
 - If no user-facing changes: note "Internal improvements — no user-facing changes"
+
+## Quality Checklist
+
+- [ ] Output is specific and actionable, not generic
+- [ ] All relevant inputs have been gathered before producing output
+- [ ] Recommendations are prioritized by impact
+- [ ] Stakeholders and audience are identified
+- [ ] Output format matches the audience's needs
+- [ ] Key assumptions are documented
+- [ ] Follow-up actions have clear owners

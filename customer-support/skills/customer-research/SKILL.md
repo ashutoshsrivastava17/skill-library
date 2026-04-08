@@ -8,6 +8,7 @@ description: >
   "find context", "customer history", "what do we know about", "pull up account",
   "dig into this", "gather context", or "background on this customer".
 argument-hint: "<customer name, ticket ID, or issue description>"
+user-invocable: true
 ---
 
 # Customer Issue Research
@@ -164,3 +165,21 @@ Look for patterns and prior art:
 - Not checking if the issue is a known bug with an existing fix or workaround
 - Failing to note related open tickets that might be the same root cause
 - Presenting raw data without synthesis or actionable recommendations
+
+## Quality Checklist
+
+- [ ] Output is specific and actionable, not generic
+- [ ] All relevant inputs have been gathered before producing output
+- [ ] Recommendations are prioritized by impact
+- [ ] Stakeholders and audience are identified
+- [ ] Output format matches the audience's needs
+- [ ] Key assumptions are documented
+- [ ] Follow-up actions have clear owners
+
+## Edge Cases
+
+- If input data is incomplete, state assumptions explicitly and flag gaps
+- For time-sensitive situations, prioritize speed over comprehensiveness
+- If multiple stakeholders have conflicting needs, document the tradeoffs
+- For first-time use, start with a simplified version and iterate
+- Adapt the depth and detail to the audience's expertise level

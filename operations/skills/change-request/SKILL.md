@@ -6,6 +6,7 @@ description: >
   TRIGGER when: user asks to create a change request, document a change, plan a deployment,
   write a CR, or prepare a change advisory board submission.
 argument-hint: "<description of the change>"
+user-invocable: true
 ---
 
 # Change Request
@@ -153,3 +154,13 @@ Status: Draft / Submitted / Approved / Scheduled / Implemented / Closed
 - **Third-party dependencies**: Include vendor support contact and SLA details
 - **Compliance-sensitive changes**: Flag if SOC2, HIPAA, PCI, or GDPR review is needed
 - **Holiday/freeze periods**: Verify the change window does not fall in a change freeze
+
+## Quality Checklist
+
+- [ ] Output is specific and actionable, not generic
+- [ ] All relevant inputs have been gathered before producing output
+- [ ] Recommendations are prioritized by impact
+- [ ] Stakeholders and audience are identified
+- [ ] Output format matches the audience's needs
+- [ ] Key assumptions are documented
+- [ ] Follow-up actions have clear owners

@@ -7,6 +7,7 @@ description: >
   performance management, self-assessment, peer feedback, ratings, or
   performance improvement plans.
 argument-hint: "[--cycle <annual|semi-annual|quarterly>] [--phase <setup|writing|calibration|delivery>]"
+user-invocable: true
 ---
 
 # Performance Review Cycle
@@ -250,3 +251,13 @@ Compensation Actions:    {X} merit increases, {X} equity refreshes
 - **Disagreements**: If an employee disputes their rating, document the disagreement and offer an escalation path (skip-level or HR review)
 - **Remote/distributed teams**: Ensure manager has sufficient visibility; supplement with peer feedback and output-based evidence
 - **High performers wanting to leave**: Use the review to address retention proactively; connect to career pathing and compensation
+
+## Quality Checklist
+
+- [ ] Output is specific and actionable, not generic
+- [ ] All relevant inputs have been gathered before producing output
+- [ ] Recommendations are prioritized by impact
+- [ ] Stakeholders and audience are identified
+- [ ] Output format matches the audience's needs
+- [ ] Key assumptions are documented
+- [ ] Follow-up actions have clear owners

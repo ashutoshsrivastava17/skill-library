@@ -8,6 +8,7 @@ description: >
   "reply to customer", "respond to ticket", "write back", "craft response",
   "help me reply", "customer email", or "what should I say".
 argument-hint: "<ticket context or issue summary>"
+user-invocable: true
 ---
 
 # Draft Customer Response

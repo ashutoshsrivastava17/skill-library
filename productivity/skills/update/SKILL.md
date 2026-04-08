@@ -5,6 +5,7 @@ description: >
   TRIGGER when: user says "wrap up", "end of day", "save progress", "update",
   "done for today", "session summary", or is finishing a work session.
 argument-hint: "[topic or area to summarize]"
+user-invocable: true
 ---
 
 # Session Update / Wrap-Up
@@ -136,3 +137,13 @@ Ask the user:
 - Show dates in relative + absolute form.
 - Keep the summary under 50 lines unless the user asks for detail.
 - Bold section headers and key action items.
+
+## Quality Checklist
+
+- [ ] Output is specific and actionable, not generic
+- [ ] All relevant inputs have been gathered before producing output
+- [ ] Recommendations are prioritized by impact
+- [ ] Stakeholders and audience are identified
+- [ ] Output format matches the audience's needs
+- [ ] Key assumptions are documented
+- [ ] Follow-up actions have clear owners

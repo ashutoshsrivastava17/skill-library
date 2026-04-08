@@ -136,3 +136,13 @@ If the user runs this on Monday, "yesterday" should cover Friday (and the weeken
 - If commit messages are cryptic, try to infer intent from branch names and PR titles
 - For managers or leads, include team coordination activities (reviews, unblocking, planning)
 - If the user works across multiple projects, group by project
+
+## Quality Checklist
+
+- [ ] Output is specific and actionable, not generic
+- [ ] All relevant inputs have been gathered before producing output
+- [ ] Recommendations are prioritized by impact
+- [ ] Stakeholders and audience are identified
+- [ ] Output format matches the audience's needs
+- [ ] Key assumptions are documented
+- [ ] Follow-up actions have clear owners

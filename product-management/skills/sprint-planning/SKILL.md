@@ -6,6 +6,7 @@ description: >
   TRIGGER when: user asks to plan a sprint, scope a sprint, estimate stories, assign
   sprint work, or prepare for sprint planning meeting.
 argument-hint: "[sprint number, goal, or backlog items to plan]"
+user-invocable: true
 ---
 
 # Sprint Planning

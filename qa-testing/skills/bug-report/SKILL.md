@@ -80,3 +80,13 @@ Present as a structured bug report ready to paste into a ticket system (GitHub I
 - If the bug is intermittent: include frequency, any patterns observed, and relevant logs
 - For performance bugs: include metrics (response time, CPU/memory usage) and comparison to baseline
 - For security bugs: mark as confidential and include only need-to-know details
+
+## Quality Checklist
+
+- [ ] Output is specific and actionable, not generic
+- [ ] All relevant inputs have been gathered before producing output
+- [ ] Recommendations are prioritized by impact
+- [ ] Stakeholders and audience are identified
+- [ ] Output format matches the audience's needs
+- [ ] Key assumptions are documented
+- [ ] Follow-up actions have clear owners

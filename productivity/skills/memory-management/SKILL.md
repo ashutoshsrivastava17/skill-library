@@ -5,6 +5,7 @@ description: >
   TRIGGER when: user says "remember this", "save context", "forget", "what do you know about me",
   "recall", or asks to persist any information for future conversations.
 argument-hint: "[save|recall|list|remove] [topic]"
+user-invocable: true
 ---
 
 # Memory Management
@@ -106,3 +107,21 @@ Lead with the core fact or rule.
 - If `MEMORY.md` is corrupted or missing entries, rebuild it by scanning `~/.claude/memory/*.md` files.
 - If a memory file referenced in `MEMORY.md` doesn't exist, remove the dangling reference.
 - If duplicate entries exist for the same topic, merge them and remove the redundant file.
+
+## Quality Checklist
+
+- [ ] Output is specific and actionable, not generic
+- [ ] All relevant inputs have been gathered before producing output
+- [ ] Recommendations are prioritized by impact
+- [ ] Stakeholders and audience are identified
+- [ ] Output format matches the audience's needs
+- [ ] Key assumptions are documented
+- [ ] Follow-up actions have clear owners
+
+## Edge Cases
+
+- If input data is incomplete, state assumptions explicitly and flag gaps
+- For time-sensitive situations, prioritize speed over comprehensiveness
+- If multiple stakeholders have conflicting needs, document the tradeoffs
+- For first-time use, start with a simplified version and iterate
+- Adapt the depth and detail to the audience's expertise level
