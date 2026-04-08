@@ -2,114 +2,138 @@
 
 A collection of reusable AI agent skill plugins, organized by category. Each plugin is independently installable and works with any AI agent that supports the skill/plugin format.
 
-**231 skills across 25 plugins.**
+**391 skills across 31 plugins.**
 
 ## Plugins
 
 | Plugin | Skills | Description |
 |---|---|---|
-| [productivity](productivity/) | 7 | Task management, session planning, memory, meeting notes, decision logs, weekly reviews |
-| [design](design/) | 8 | Design critique, accessibility audits, handoff specs, UX writing, usability testing, research |
-| [data](data/) | 15 | SQL, dataset exploration, visualization, dashboards, pipelines, ML evaluation, statistical analysis, metric definitions, experiment readouts |
-| [engineering](engineering/) | 18 | Code review, architecture, API design, debugging, refactoring, performance profiling, database design, design review, build-vs-buy |
-| [product-management](product-management/) | 14 | Feature specs, roadmaps, sprint planning, A/B testing, go-to-market, prioritization |
-| [operations](operations/) | 13 | SOPs, runbooks, change requests, risk assessment, OKR tracking, budget and SLA reviews |
-| [human-resources](human-resources/) | 11 | Recruiting, onboarding, performance reviews, exit interviews, employee surveys, compensation |
-| [enterprise-search](enterprise-search/) | 6 | Cross-tool search, activity digests, knowledge synthesis, competitive intelligence |
-| [customer-support](customer-support/) | 7 | Ticket triage, response drafting, CSAT analysis, support metrics, escalations |
-| [communications](communications/) | 12 | Crisis comms, executive briefings, press releases, meeting agendas, change communication, town hall scripts, executive emails |
-| [devops](devops/) | 12 | CI/CD, monitoring, SLO tracking, disaster recovery, deployment strategies, alert tuning, rollback plans, game days |
-| [finance](finance/) | 12 | Budget planning, forecasting, pricing models, variance analysis, cost optimization, unit economics, cash flow |
-| [learning-development](learning-development/) | 8 | Course design, learning paths, mentoring, coaching plans, workshops, skill assessments |
-| [legal](legal/) | 9 | Contract review, compliance, license review, DPAs, privacy policy, legal risk assessment |
-| [marketing](marketing/) | 9 | Campaigns, landing pages, competitor analysis, SEO, email copy, marketing analytics |
-| [sales](sales/) | 9 | Discovery calls, deal analysis, account plans, win/loss analysis, forecasting, proposals |
-| [security](security/) | 12 | Threat modeling, security architecture review, IR plans, pen testing, vulnerability assessments, third-party risk, security exceptions |
-| [qa-testing](qa-testing/) | 10 | Test planning, API testing, performance testing, automation strategy, bug reports, release signoff, test prioritization |
-| [documentation](documentation/) | 9 | API docs, ADRs, onboarding guides, architecture diagrams, changelogs, style guides, troubleshooting, implementation guides |
-| [customer-success](customer-success/) | 5 | Health scoring, QBR prep, adoption planning, renewal risk analysis, expansion strategies |
-| [program-management](program-management/) | 5 | RAID logs, dependency mapping, milestone reviews, steering committee updates, program status |
-| [procurement](procurement/) | 5 | RFP drafting, vendor shortlisting, sourcing scorecards, negotiation briefs, purchase justification |
-| [strategy](strategy/) | 5 | Market entry, scenario planning, portfolio reviews, investment memos, strategic options |
-| [partnerships](partnerships/) | 5 | Partner evaluation, alliance planning, integration readiness, partner QBRs, co-marketing |
-| [ai-operations](ai-operations/) | 5 | Prompt evaluation, agent runbooks, workflow automation review, LLM risk, model cost optimization |
+| [ai-operations](ai-operations/) | 13 | Prompt management, model selection, fine-tuning, RAG pipelines, AI governance, monitoring, synthetic data review |
+| [analytics](analytics/) | 10 | KPI definition, dashboard design, data modeling, attribution, cohort analysis, predictive analytics |
+| [communications](communications/) | 14 | Crisis comms, executive briefings, press releases, speeches, media training, newsletters, change comms |
+| [customer-experience](customer-experience/) | 10 | Journey mapping, NPS analysis, VoC, service design, CX dashboards, loyalty programs |
+| [customer-success](customer-success/) | 11 | Health scoring, QBR prep, churn prevention, advocacy, CSM handoffs, usage analytics |
+| [customer-support](customer-support/) | 10 | Ticket triage, chatbot design, self-service optimization, CSAT, support training |
+| [data](data/) | 17 | SQL, visualization, pipelines, ML evaluation, data governance, data catalog, statistical analysis |
+| [design](design/) | 11 | Design critique, sprints, wireframe review, motion specs, accessibility, UX writing |
+| [devops](devops/) | 15 | CI/CD, chaos engineering, containers, GitOps, monitoring, SLOs, disaster recovery |
+| [documentation](documentation/) | 12 | API docs, release docs, video scripts, knowledge bases, changelogs, architecture diagrams |
+| [engineering](engineering/) | 21 | Code review, architecture, API design, monorepos, feature flags, observability, debugging |
+| [enterprise-search](enterprise-search/) | 11 | Cross-tool search, knowledge graphs, taxonomy design, information architecture, content curation |
+| [finance](finance/) | 15 | Budgeting, forecasting, financial modeling, tax planning, audit preparation, cost optimization |
+| [human-resources](human-resources/) | 15 | Recruiting, D&I, workforce planning, succession, engagement, performance reviews |
+| [it-service-management](it-service-management/) | 10 | ITIL processes — change, incident, problem, release, knowledge, configuration management |
+| [learning-development](learning-development/) | 12 | Course design, e-learning, competency mapping, mentoring, certification programs |
+| [legal](legal/) | 12 | Contracts, compliance, IP review, corporate governance, regulatory tracking, litigation |
+| [marketing](marketing/) | 13 | Campaigns, content marketing, paid media, influencer strategy, SEO, conversion optimization |
+| [operations](operations/) | 15 | SOPs, workflow design, resource planning, OKR tracking, budget and SLA reviews |
+| [partnerships](partnerships/) | 11 | Partner evaluation, channel strategy, ecosystem mapping, revenue sharing, JV analysis |
+| [procurement](procurement/) | 11 | RFP drafting, spend analysis, category management, e-procurement, compliance |
+| [product-management](product-management/) | 17 | Feature specs, product launches, beta programs, analytics, prioritization, roadmaps |
+| [productivity](productivity/) | 12 | Task management, automation audit, delegation, focus planning, time audits |
+| [program-management](program-management/) | 11 | RAID logs, stakeholder analysis, benefits realization, portfolio governance, lessons learned |
+| [qa-testing](qa-testing/) | 13 | Test planning, security testing, accessibility testing, load testing, automation strategy |
+| [risk-management](risk-management/) | 11 | Risk registers, BCP, crisis simulation, cyber risk, fraud risk, operational risk |
+| [sales](sales/) | 13 | Discovery calls, demos, territory plans, sales enablement, pricing strategy, forecasting |
+| [security](security/) | 15 | Threat modeling, zero trust, cloud security, awareness programs, pen testing, IR plans |
+| [strategy](strategy/) | 12 | SWOT, growth strategy, digital transformation, OKR frameworks, business model canvas |
+| [supply-chain](supply-chain/) | 9 | Demand planning, inventory, logistics, warehouse ops, quality control, trade compliance |
+| [sustainability](sustainability/) | 9 | ESG reporting, carbon footprint, circular economy, social impact, DEI reporting |
 
 ## All Skills
 
-### Productivity
-`/start` `/task-management` `/memory-management` `/update` `/meeting-notes` `/decision-log` `/weekly-review`
+### AI Operations (13)
+`/agent-runbook` `/ai-governance` `/data-labeling-review` `/fine-tuning-plan` `/llm-risk-review` `/model-cost-review` `/model-monitoring` `/model-selection` `/prompt-eval` `/prompt-library` `/rag-pipeline` `/synthetic-data-review` `/workflow-automation-review`
 
-### Design
-`/accessibility-review` `/design-critique` `/design-handoff` `/design-system` `/research-synthesis` `/usability-test-plan` `/user-research` `/ux-copy`
+### Analytics (10)
+`/ab-testing-analysis` `/attribution-modeling` `/cohort-analysis` `/dashboard-design` `/data-modeling` `/funnel-analysis` `/kpi-definition` `/predictive-analytics` `/report-automation` `/self-service-analytics`
 
-### Data
-`/analyze` `/build-dashboard` `/create-viz` `/data-context-extractor` `/data-pipeline` `/data-quality` `/data-storytelling` `/data-visualization` `/etl-validation` `/experiment-readout` `/explore-data` `/metric-definition` `/ml-model-eval` `/sql-queries` `/statistical-analysis`
+### Communications (14)
+`/change-communication` `/change-faq` `/crisis-comms` `/executive-briefing` `/executive-email` `/internal-comms` `/media-training` `/meeting-agenda` `/newsletter` `/presentation-outline` `/press-release` `/speech-writing` `/stakeholder-messaging` `/town-hall-script`
 
-### Engineering
-`/api-design` `/architecture` `/build-vs-buy` `/code-review` `/database-design` `/debug` `/dependency-audit` `/deploy-checklist` `/design-review` `/documentation` `/incident-response` `/migration-plan` `/performance-profiling` `/refactor-plan` `/standup` `/system-design` `/tech-debt` `/testing-strategy`
+### Customer Experience (10)
+`/complaint-analysis` `/customer-segmentation` `/cx-metrics-dashboard` `/experience-audit` `/feedback-management` `/journey-mapping` `/loyalty-program` `/nps-analysis` `/service-design` `/voice-of-customer`
 
-### Product Management
-`/ab-test-plan` `/brainstorm` `/competitive-brief` `/feature-prioritization` `/go-to-market` `/metrics-review` `/product-brainstorming` `/release-notes` `/roadmap-update` `/sprint-planning` `/stakeholder-update` `/synthesize-research` `/user-story` `/write-spec`
+### Customer Success (11)
+`/adoption-plan` `/churn-prevention` `/csm-handoff` `/customer-advocacy` `/customer-journey` `/expansion-plan` `/health-score-review` `/qbr-prep` `/renewal-risk` `/success-playbook` `/usage-analytics`
 
-### Operations
-`/budget-tracking` `/capacity-plan` `/change-request` `/compliance-tracking` `/incident-postmortem` `/okr-tracking` `/process-doc` `/process-optimization` `/risk-assessment` `/runbook` `/sla-review` `/status-report` `/vendor-review`
+### Customer Support (10)
+`/chatbot-design` `/csat-analysis` `/customer-escalation` `/customer-research` `/draft-response` `/kb-article` `/self-service-optimization` `/support-metrics-review` `/support-training` `/ticket-triage`
 
-### Human Resources
-`/comp-analysis` `/draft-offer` `/employee-survey` `/exit-interview` `/interview-prep` `/onboarding` `/org-planning` `/people-report` `/performance-review` `/policy-lookup` `/recruiting-pipeline`
+### Data (17)
+`/analyze` `/build-dashboard` `/create-viz` `/data-catalog` `/data-context-extractor` `/data-governance` `/data-pipeline` `/data-quality` `/data-storytelling` `/data-visualization` `/etl-validation` `/experiment-readout` `/explore-data` `/metric-definition` `/ml-model-eval` `/sql-queries` `/statistical-analysis`
 
-### Enterprise Search
-`/competitive-intel` `/digest` `/knowledge-synthesis` `/search-strategy` `/search` `/source-management`
+### Design (11)
+`/accessibility-review` `/design-critique` `/design-handoff` `/design-sprint` `/design-system` `/motion-design-spec` `/research-synthesis` `/usability-test-plan` `/user-research` `/ux-copy` `/wireframe-review`
 
-### Customer Support
-`/csat-analysis` `/customer-escalation` `/customer-research` `/draft-response` `/kb-article` `/support-metrics-review` `/ticket-triage`
+### DevOps (15)
+`/alert-tuning` `/chaos-engineering` `/ci-cd-pipeline` `/cloud-cost-review` `/container-strategy` `/deployment-strategy` `/disaster-recovery` `/game-day-plan` `/gitops-review` `/incident-runbook` `/infrastructure-review` `/monitoring-setup` `/rollback-plan` `/service-catalog-review` `/slo-tracking`
 
-### Communications
-`/change-communication` `/change-faq` `/crisis-comms` `/executive-briefing` `/executive-email` `/internal-comms` `/meeting-agenda` `/newsletter` `/presentation-outline` `/press-release` `/stakeholder-messaging` `/town-hall-script`
+### Documentation (12)
+`/api-docs` `/architecture-diagram` `/changelog` `/decision-record` `/implementation-guide` `/knowledge-base-design` `/onboarding-guide` `/release-documentation` `/runbook-writer` `/style-guide` `/troubleshooting-guide` `/video-script`
 
-### DevOps
-`/alert-tuning` `/ci-cd-pipeline` `/cloud-cost-review` `/deployment-strategy` `/disaster-recovery` `/game-day-plan` `/incident-runbook` `/infrastructure-review` `/monitoring-setup` `/rollback-plan` `/service-catalog-review` `/slo-tracking`
+### Engineering (21)
+`/api-design` `/architecture` `/build-vs-buy` `/code-review` `/database-design` `/debug` `/dependency-audit` `/deploy-checklist` `/design-review` `/documentation` `/feature-flag-plan` `/incident-response` `/migration-plan` `/monorepo-strategy` `/observability-design` `/performance-profiling` `/refactor-plan` `/standup` `/system-design` `/tech-debt` `/testing-strategy`
 
-### Finance
-`/budget-plan` `/cash-flow-review` `/cost-optimization` `/expense-review` `/financial-forecast` `/financial-report` `/financial-scenario` `/investment-analysis` `/pricing-model` `/revenue-analysis` `/unit-economics` `/variance-analysis`
+### Enterprise Search (11)
+`/competitive-intel` `/content-curation` `/digest` `/information-architecture` `/knowledge-graph` `/knowledge-synthesis` `/search` `/search-analytics` `/search-strategy` `/source-management` `/taxonomy-design`
 
-### Learning & Development
-`/coaching-plan` `/course-design` `/knowledge-check` `/learning-path` `/mentoring-guide` `/skill-assessment` `/training-material` `/workshop-plan`
+### Finance (15)
+`/audit-preparation` `/budget-plan` `/cash-flow-review` `/cost-optimization` `/expense-review` `/financial-forecast` `/financial-modeling` `/financial-report` `/investment-analysis` `/pricing-model` `/revenue-analysis` `/scenario-planning` `/tax-planning` `/unit-economics` `/variance-analysis`
 
-### Legal
-`/compliance-check` `/contract-review` `/data-processing-agreement` `/ip-review` `/legal-risk-assessment` `/license-review` `/nda-draft` `/privacy-policy` `/terms-of-service`
+### Human Resources (15)
+`/comp-analysis` `/diversity-inclusion` `/draft-offer` `/employee-engagement` `/employee-survey` `/exit-interview` `/interview-prep` `/onboarding` `/org-planning` `/people-report` `/performance-review` `/policy-lookup` `/recruiting-pipeline` `/succession-planning` `/workforce-planning`
 
-### Marketing
-`/brand-messaging` `/campaign-plan` `/competitor-analysis` `/content-calendar` `/email-copy` `/landing-page-copy` `/marketing-analytics` `/seo-audit` `/social-media-post`
+### IT Service Management (10)
+`/asset-management` `/capacity-management` `/change-management` `/configuration-management` `/incident-management` `/knowledge-management` `/problem-management` `/release-management` `/service-catalog` `/service-level-management`
 
-### Sales
-`/account-plan` `/competitive-positioning` `/deal-analysis` `/discovery-call` `/objection-handling` `/pipeline-review` `/proposal-draft` `/sales-forecast` `/win-loss-analysis`
+### Learning & Development (12)
+`/certification-program` `/coaching-plan` `/competency-mapping` `/course-design` `/e-learning-design` `/knowledge-check` `/learning-path` `/mentoring-guide` `/onboarding-curriculum` `/skill-assessment` `/training-material` `/workshop-plan`
 
-### Security
-`/access-review` `/compliance-audit` `/incident-investigation` `/incident-response-plan` `/pen-test-plan` `/security-architecture-review` `/security-checklist` `/security-exception-review` `/security-review` `/third-party-risk-review` `/threat-model` `/vulnerability-assessment`
+### Legal (12)
+`/compliance-check` `/contract-review` `/corporate-governance` `/data-processing-agreement` `/ip-review` `/legal-risk-assessment` `/license-review` `/litigation-management` `/nda-draft` `/privacy-policy` `/regulatory-tracking` `/terms-of-service`
 
-### QA & Testing
-`/api-test-plan` `/bug-report` `/exploratory-testing` `/performance-test-plan` `/regression-check` `/release-signoff` `/test-automation-strategy` `/test-case-prioritization` `/test-coverage` `/test-plan`
+### Marketing (13)
+`/brand-messaging` `/campaign-plan` `/competitor-analysis` `/content-calendar` `/content-marketing` `/conversion-optimization` `/email-copy` `/influencer-strategy` `/landing-page-copy` `/marketing-analytics` `/paid-media-plan` `/seo-audit` `/social-media-post`
 
-### Documentation
-`/api-docs` `/architecture-diagram` `/changelog` `/decision-record` `/implementation-guide` `/onboarding-guide` `/runbook-writer` `/style-guide` `/troubleshooting-guide`
+### Operations (15)
+`/budget-tracking` `/capacity-plan` `/change-request` `/compliance-tracking` `/incident-postmortem` `/okr-tracking` `/process-doc` `/process-optimization` `/resource-planning` `/risk-assessment` `/runbook` `/sla-review` `/status-report` `/vendor-review` `/workflow-design`
 
-### Customer Success
-`/adoption-plan` `/expansion-plan` `/health-score-review` `/qbr-prep` `/renewal-risk`
+### Partnerships (11)
+`/alliance-plan` `/channel-strategy` `/co-marketing-brief` `/ecosystem-mapping` `/integration-readiness` `/joint-venture-analysis` `/partner-evaluation` `/partner-onboarding` `/partner-qbr` `/revenue-sharing` `/technology-partnership`
 
-### Program Management
-`/dependency-mapping` `/milestone-review` `/program-status` `/raid-log` `/steerco-update`
+### Procurement (11)
+`/category-management` `/contract-negotiation` `/e-procurement-strategy` `/negotiation-brief` `/procurement-compliance` `/purchase-justification` `/rfp-draft` `/sourcing-scorecard` `/spend-analysis` `/supplier-risk` `/vendor-shortlist`
 
-### Procurement
-`/negotiation-brief` `/purchase-justification` `/rfp-draft` `/sourcing-scorecard` `/vendor-shortlist`
+### Product Management (17)
+`/ab-test-plan` `/beta-program` `/brainstorm` `/competitive-brief` `/feature-prioritization` `/go-to-market` `/metrics-review` `/product-analytics` `/product-brainstorming` `/product-launch` `/release-notes` `/roadmap-update` `/sprint-planning` `/stakeholder-update` `/synthesize-research` `/user-story` `/write-spec`
 
-### Strategy
-`/investment-memo` `/market-entry` `/portfolio-review` `/scenario-planning` `/strategic-options`
+### Productivity (12)
+`/automation-audit` `/decision-log` `/delegation-framework` `/focus-plan` `/inbox-zero` `/meeting-notes` `/memory-management` `/start` `/task-management` `/time-audit` `/update` `/weekly-review`
 
-### Partnerships
-`/alliance-plan` `/co-marketing-brief` `/integration-readiness` `/partner-evaluation` `/partner-qbr`
+### Program Management (11)
+`/benefits-realization` `/dependency-mapping` `/lessons-learned` `/milestone-review` `/portfolio-governance` `/program-change-management` `/program-status` `/raid-log` `/resource-allocation` `/stakeholder-analysis` `/steerco-update`
 
-### AI Operations
-`/agent-runbook` `/llm-risk-review` `/model-cost-review` `/prompt-eval` `/workflow-automation-review`
+### QA & Testing (13)
+`/accessibility-testing` `/api-test-plan` `/bug-report` `/exploratory-testing` `/load-testing` `/performance-test-plan` `/regression-check` `/release-signoff` `/security-testing` `/test-automation-strategy` `/test-case-prioritization` `/test-coverage` `/test-plan`
+
+### Risk Management (11)
+`/bcp-plan` `/control-testing` `/crisis-simulation` `/cyber-risk` `/fraud-risk` `/insurance-review` `/operational-risk` `/risk-appetite` `/risk-register` `/risk-reporting` `/third-party-risk`
+
+### Sales (13)
+`/account-plan` `/competitive-positioning` `/deal-analysis` `/demo-prep` `/discovery-call` `/objection-handling` `/pipeline-review` `/pricing-strategy` `/proposal-draft` `/sales-enablement` `/sales-forecast` `/territory-plan` `/win-loss-analysis`
+
+### Security (15)
+`/access-review` `/cloud-security` `/compliance-audit` `/incident-investigation` `/incident-response-plan` `/pen-test-plan` `/security-architecture-review` `/security-awareness` `/security-checklist` `/security-exception-review` `/security-review` `/third-party-risk-review` `/threat-model` `/vulnerability-assessment` `/zero-trust-review`
+
+### Strategy (12)
+`/business-model-canvas` `/competitive-landscape` `/digital-transformation` `/growth-strategy` `/investment-memo` `/market-entry` `/okr-framework` `/portfolio-review` `/scenario-planning` `/strategic-options` `/strategic-roadmap` `/swot-analysis`
+
+### Supply Chain (9)
+`/demand-planning` `/inventory-optimization` `/logistics-review` `/quality-control` `/returns-management` `/supplier-management` `/supply-chain-risk` `/trade-compliance` `/warehouse-operations`
+
+### Sustainability (9)
+`/carbon-footprint` `/circular-economy` `/dei-reporting` `/esg-report` `/green-procurement` `/impact-measurement` `/social-impact` `/sustainability-strategy` `/water-management`
 
 ## Suggested Combinations
 
@@ -233,31 +257,37 @@ claude \
 
 ```
 skill-library/
-├── productivity/           # 7 skills
-├── design/                 # 8 skills
-├── data/                   # 15 skills
-├── engineering/            # 18 skills
-├── product-management/     # 14 skills
-├── operations/             # 13 skills
-├── human-resources/        # 11 skills
-├── enterprise-search/      # 6 skills
-├── customer-support/       # 7 skills
-├── communications/         # 12 skills
-├── devops/                 # 12 skills
-├── finance/                # 12 skills
-├── learning-development/   # 8 skills
-├── legal/                  # 9 skills
-├── marketing/              # 9 skills
-├── sales/                  # 9 skills
-├── security/               # 12 skills
-├── qa-testing/             # 10 skills
-├── documentation/          # 9 skills
-├── customer-success/       # 5 skills
-├── program-management/     # 5 skills
-├── procurement/            # 5 skills
-├── strategy/               # 5 skills
-├── partnerships/           # 5 skills
-├── ai-operations/          # 5 skills
+├── ai-operations/          # 13 skills
+├── analytics/              # 10 skills
+├── communications/         # 14 skills
+├── customer-experience/    # 10 skills
+├── customer-success/       # 11 skills
+├── customer-support/       # 10 skills
+├── data/                   # 17 skills
+├── design/                 # 11 skills
+├── devops/                 # 15 skills
+├── documentation/          # 12 skills
+├── engineering/            # 21 skills
+├── enterprise-search/      # 11 skills
+├── finance/                # 15 skills
+├── human-resources/        # 15 skills
+├── it-service-management/  # 10 skills
+├── learning-development/   # 12 skills
+├── legal/                  # 12 skills
+├── marketing/              # 13 skills
+├── operations/             # 15 skills
+├── partnerships/           # 11 skills
+├── procurement/            # 11 skills
+├── product-management/     # 17 skills
+├── productivity/           # 12 skills
+├── program-management/     # 11 skills
+├── qa-testing/             # 13 skills
+├── risk-management/        # 11 skills
+├── sales/                  # 13 skills
+├── security/               # 15 skills
+├── strategy/               # 12 skills
+├── supply-chain/           # 9 skills
+├── sustainability/         # 9 skills
 ├── .gitignore
 └── README.md
 
