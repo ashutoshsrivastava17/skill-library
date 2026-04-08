@@ -1,0 +1,9 @@
+{
+  "name": "engineering",
+  "description": "Streamline engineering workflows — standups, code review, architecture decisions, incident response, and technical documentation. Works with your existing tools or standalone.",
+  "version": "1.0.0",
+  "author": { "name": "Ashutosh Srivastava" },
+  "homepage": "",
+  "repository": "",
+  "license": "MIT"
+}

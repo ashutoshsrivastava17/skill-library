@@ -1,0 +1,9 @@
+{
+  "name": "strategy",
+  "description": "Support strategic decision-making — market entry analysis, scenario planning, portfolio reviews, investment memos, and strategic options evaluation for leadership and planning teams.",
+  "version": "1.0.0",
+  "author": { "name": "Ashutosh Srivastava" },
+  "homepage": "",
+  "repository": "",
+  "license": "MIT"
+}

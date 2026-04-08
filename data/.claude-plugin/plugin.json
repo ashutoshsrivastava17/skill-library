@@ -1,0 +1,9 @@
+{
+  "name": "data",
+  "description": "Write SQL, explore datasets, and generate insights faster. Build visualizations and dashboards, and turn raw data into clear stories for stakeholders.",
+  "version": "1.0.0",
+  "author": { "name": "Ashutosh Srivastava" },
+  "homepage": "",
+  "repository": "",
+  "license": "MIT"
+}

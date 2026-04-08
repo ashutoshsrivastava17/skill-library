@@ -1,0 +1,9 @@
+{
+  "name": "program-management",
+  "description": "Manage cross-functional programs — RAID logs, dependency tracking, milestone reviews, steering committee updates, and program status reporting for complex initiatives.",
+  "version": "1.0.0",
+  "author": { "name": "Ashutosh Srivastava" },
+  "homepage": "",
+  "repository": "",
+  "license": "MIT"
+}

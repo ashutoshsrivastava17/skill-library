@@ -1,0 +1,9 @@
+{
+  "name": "operations",
+  "description": "Optimize business operations — vendor management, process documentation, change management, capacity planning, and compliance tracking. Keep your organization running efficiently.",
+  "version": "1.0.0",
+  "author": { "name": "Ashutosh Srivastava" },
+  "homepage": "",
+  "repository": "",
+  "license": "MIT"
+}

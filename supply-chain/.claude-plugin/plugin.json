@@ -1,0 +1,9 @@
+{
+  "name": "supply-chain",
+  "description": "Optimize supply chain operations — demand planning, inventory management, logistics, supplier management, and supply chain risk assessment. Works with your existing tools or standalone.",
+  "version": "1.0.0",
+  "author": { "name": "Ashutosh Srivastava" },
+  "homepage": "",
+  "repository": "",
+  "license": "MIT"
+}

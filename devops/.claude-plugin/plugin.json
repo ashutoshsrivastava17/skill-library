@@ -1,0 +1,18 @@
+{
+  "name": "devops",
+  "description": "Improve operational excellence with alert tuning, incident runbooks, and infrastructure reviews for reliability, scalability, and response readiness.",
+  "version": "1.0.0",
+  "author": { "name": "Ashutosh Srivastava" },
+  "homepage": "",
+  "repository": "",
+  "license": "MIT"
+}
+{
+  "name": "devops",
+  "description": "Streamline DevOps and SRE workflows — CI/CD pipelines, infrastructure management, monitoring, cloud cost optimization, SLO tracking, and alert tuning. Works with your existing tools or standalone.",
+  "version": "1.0.0",
+  "author": { "name": "Ashutosh Srivastava" },
+  "homepage": "",
+  "repository": "",
+  "license": "MIT"
+}

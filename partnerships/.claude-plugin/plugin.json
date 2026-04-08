@@ -1,0 +1,9 @@
+{
+  "name": "partnerships",
+  "description": "Manage partner relationships — partner evaluation, alliance planning, integration readiness, partner QBRs, and co-marketing briefs for strategic partnership programs.",
+  "version": "1.0.0",
+  "author": { "name": "Ashutosh Srivastava" },
+  "homepage": "",
+  "repository": "",
+  "license": "MIT"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "risk-management",
+  "description": "Manage enterprise risk — risk registers, business continuity planning, crisis simulation, control testing, risk appetite frameworks, and compliance risk reporting. Works with your existing tools or standalone.",
+  "version": "1.0.0",
+  "author": { "name": "Ashutosh Srivastava" },
+  "homepage": "",
+  "repository": "",
+  "license": "MIT"
+}

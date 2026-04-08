@@ -1,0 +1,9 @@
+{
+  "name": "ai-operations",
+  "description": "Manage AI and automation systems — prompt evaluation, agent runbooks, workflow automation reviews, LLM risk assessments, and model cost optimization for teams building with AI.",
+  "version": "1.0.0",
+  "author": { "name": "Ashutosh Srivastava" },
+  "homepage": "",
+  "repository": "",
+  "license": "MIT"
+}
