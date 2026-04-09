@@ -24,3 +24,9 @@ __pycache__/
 
 # Claude Code
 .claude/
+
+# Generated role files
+.role-*
+
+# Exported skill files
+exports/
