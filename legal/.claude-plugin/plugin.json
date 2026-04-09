@@ -1,14 +1,5 @@
 {
   "name": "legal",
-  "description": "Assess legal risk, contract exposure, regulatory obligations, and policy implications with structured issue spotting and mitigation guidance.",
-  "version": "1.0.0",
-  "author": { "name": "Ashutosh Srivastava" },
-  "homepage": "",
-  "repository": "",
-  "license": "MIT"
-}
-{
-  "name": "legal",
   "description": "Support legal workflows — contract review, compliance checking, NDA drafting, policy analysis, IP review, and terms of service creation. Works with your existing tools or standalone.",
   "version": "1.0.0",
   "author": { "name": "Ashutosh Srivastava" },

@@ -1,14 +1,5 @@
 {
   "name": "marketing",
-  "description": "Measure campaign performance, interpret funnel metrics, and turn marketing data into decisions on spend, channels, and messaging.",
-  "version": "1.0.0",
-  "author": { "name": "Ashutosh Srivastava" },
-  "homepage": "",
-  "repository": "",
-  "license": "MIT"
-}
-{
-  "name": "marketing",
   "description": "Plan and execute marketing initiatives — campaigns, content strategy, SEO, social media, email marketing, brand positioning, and analytics. Works with your existing tools or standalone.",
   "version": "1.0.0",
   "author": { "name": "Ashutosh Srivastava" },

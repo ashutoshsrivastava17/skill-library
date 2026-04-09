@@ -1,4 +1,26 @@
+# OS
 .DS_Store
+Thumbs.db
+
+# Editors & IDEs
 *.swp
 *.swo
 *~
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Runtime & build
+node_modules/
+__pycache__/
+*.pyc
+*.log
+
+# Claude Code
+.claude/

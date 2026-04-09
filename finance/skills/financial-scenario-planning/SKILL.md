@@ -1,11 +1,11 @@
 ---
-name: scenario-planning
+name: financial-scenario-planning
 description: >
   Model financial scenarios — base, upside, and downside cases with revenue,
   cost, and cash flow projections. Produce scenario comparison tables with
   sensitivity analysis. Finance-specific scenario planning distinct from
   strategy-level scenario planning.
-  TRIGGER when: user says /financial-scenario, "financial scenario",
+  TRIGGER when: user says /financial-scenario-planning, "financial scenario",
   "financial modeling", "scenario model", "stress test financials", or
   asks to model financial outcomes under different assumptions.
 argument-hint: "[business unit or initiative]"

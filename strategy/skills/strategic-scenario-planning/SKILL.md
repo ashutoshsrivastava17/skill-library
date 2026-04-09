@@ -1,10 +1,10 @@
 ---
-name: scenario-planning
+name: strategic-scenario-planning
 description: >
   Develop scenario plans with multiple futures, key uncertainties, signposts,
   and strategic responses for each scenario. Structure scenario analysis for
   strategic decision-making.
-  TRIGGER when: user says /scenario-planning, "scenario planning",
+  TRIGGER when: user says /strategic-scenario-planning, "scenario planning",
   "scenario analysis", "what-if analysis", "strategic scenarios",
   "contingency planning".
 argument-hint: "[decision or uncertainty to explore]"

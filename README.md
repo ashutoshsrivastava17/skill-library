@@ -2,7 +2,7 @@
 
 A collection of reusable AI agent skill plugins, organized by category. Each plugin is independently installable and works with any AI agent that supports the skill/plugin format.
 
-**416 skills across 31 plugins.**
+**418 skills across 31 plugins.**
 
 ## Plugins
 
@@ -18,7 +18,7 @@ A collection of reusable AI agent skill plugins, organized by category. Each plu
 | [design](design/) | 11 | Design critique, sprints, wireframe review, motion specs, accessibility, UX writing |
 | [devops](devops/) | 17 | CI/CD, chaos engineering, containers, GitOps, monitoring, SLOs, disaster recovery, mobile CI/CD, app store releases |
 | [documentation](documentation/) | 12 | API docs, release docs, video scripts, knowledge bases, changelogs, architecture diagrams |
-| [engineering](engineering/) | 43 | Code review, architecture, API/SDK design, mobile (architecture, security, networking, accessibility, analytics, push notifications, state, persistence, design patterns, performance, code review), backend architecture, cross-platform strategy, SOLID principles |
+| [engineering](engineering/) | 45 | Code review, architecture, API/SDK design, mobile (architecture, security, networking, accessibility, analytics, push notifications, state, persistence, design patterns, performance, code review), backend architecture, cross-platform strategy, SOLID principles |
 | [enterprise-search](enterprise-search/) | 11 | Cross-tool search, knowledge graphs, taxonomy design, information architecture, content curation |
 | [finance](finance/) | 15 | Budgeting, forecasting, financial modeling, tax planning, audit preparation, cost optimization |
 | [human-resources](human-resources/) | 15 | Recruiting, D&I, workforce planning, succession, engagement, performance reviews |
@@ -72,14 +72,14 @@ A collection of reusable AI agent skill plugins, organized by category. Each plu
 ### Documentation (12)
 `/api-docs` `/architecture-diagram` `/changelog` `/decision-record` `/implementation-guide` `/knowledge-base-design` `/onboarding-guide` `/release-documentation` `/runbook-writer` `/style-guide` `/troubleshooting-guide` `/video-script`
 
-### Engineering (43)
+### Engineering (45)
 `/accessibility-implementation` `/api-design` `/architecture` `/auth-design` `/backend-architecture` `/build-vs-buy` `/caching-strategy` `/code-review` `/cost-estimation` `/cross-platform-strategy` `/database-design` `/debug` `/dependency-audit` `/deploy-checklist` `/design-review` `/documentation` `/event-architecture` `/feature-flag-plan` `/i18n-strategy` `/incident-response` `/legacy-code-assessment` `/microservices-decomposition` `/migration-plan` `/mobile-accessibility` `/mobile-analytics` `/mobile-architecture` `/mobile-code-review` `/mobile-data-persistence` `/mobile-design-patterns` `/mobile-networking` `/mobile-performance` `/mobile-push-notifications` `/mobile-security` `/mobile-state-management` `/monorepo-strategy` `/observability-design` `/performance-profiling` `/refactor-plan` `/sdk-design` `/solid-principles` `/standup` `/system-design` `/tech-debt` `/technical-rfc` `/testing-strategy`
 
 ### Enterprise Search (11)
 `/competitive-intel` `/content-curation` `/digest` `/information-architecture` `/knowledge-graph` `/knowledge-synthesis` `/search` `/search-analytics` `/search-strategy` `/source-management` `/taxonomy-design`
 
 ### Finance (15)
-`/audit-preparation` `/budget-plan` `/cash-flow-review` `/cost-optimization` `/expense-review` `/financial-forecast` `/financial-modeling` `/financial-report` `/investment-analysis` `/pricing-model` `/revenue-analysis` `/scenario-planning` `/tax-planning` `/unit-economics` `/variance-analysis`
+`/audit-preparation` `/budget-plan` `/cash-flow-review` `/cost-optimization` `/expense-review` `/financial-forecast` `/financial-modeling` `/financial-report` `/financial-scenario-planning` `/investment-analysis` `/pricing-model` `/revenue-analysis` `/tax-planning` `/unit-economics` `/variance-analysis`
 
 ### Human Resources (15)
 `/comp-analysis` `/diversity-inclusion` `/draft-offer` `/employee-engagement` `/employee-survey` `/exit-interview` `/interview-prep` `/onboarding` `/org-planning` `/people-report` `/performance-review` `/policy-lookup` `/recruiting-pipeline` `/succession-planning` `/workforce-planning`
@@ -127,7 +127,7 @@ A collection of reusable AI agent skill plugins, organized by category. Each plu
 `/access-review` `/cloud-security` `/compliance-audit` `/incident-investigation` `/incident-response-plan` `/pen-test-plan` `/security-architecture-review` `/security-awareness` `/security-checklist` `/security-exception-review` `/security-review` `/third-party-risk-review` `/threat-model` `/vulnerability-assessment` `/zero-trust-review`
 
 ### Strategy (12)
-`/business-model-canvas` `/competitive-landscape` `/digital-transformation` `/growth-strategy` `/investment-memo` `/market-entry` `/okr-framework` `/portfolio-review` `/scenario-planning` `/strategic-options` `/strategic-roadmap` `/swot-analysis`
+`/business-model-canvas` `/competitive-landscape` `/digital-transformation` `/growth-strategy` `/investment-memo` `/market-entry` `/okr-framework` `/portfolio-review` `/strategic-options` `/strategic-roadmap` `/strategic-scenario-planning` `/swot-analysis`
 
 ### Supply Chain (9)
 `/demand-planning` `/inventory-optimization` `/logistics-review` `/quality-control` `/returns-management` `/supplier-management` `/supply-chain-risk` `/trade-compliance` `/warehouse-operations`
