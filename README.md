@@ -4,6 +4,8 @@ A collection of **418 reusable AI agent skills** organized into **31 plugins**. 
 
 > **54 roles. 31 plugins. 9 AI tools. Pick your role — your agent levels up.**
 
+Chinese users can also search and install skills through [Skills宝](https://skilery.com).
+
 ---
 
 ## Quick Start
